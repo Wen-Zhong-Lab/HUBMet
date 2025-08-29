@@ -14,9 +14,7 @@ HUBMet_term <- readRDS("./Data/HUBMet_term_1028.RDS")
 # --------------- ORA --------------
 ## ----------Dot plot in ORA-------------------------------
 
-
-# 2507 dotplot_enrich 主要修改： 输出csv
-
+ 
 dotplot_enrich <- function(da, database, 
                            smpdb_class = "Metabolic", 
                            kegg_class = "Amino acid metabolism" ){  
@@ -27,12 +25,12 @@ dotplot_enrich <- function(da, database,
     filter(p.adjust < 0.05)
   
   
-  if(nrow(da[which(!is.na(da$pvalue) & da$p.adjust < 0.05),]) == 0){  # change 1206
-    p <- "No significantly enriched term (adjusted p-value < 0.05) in this section!"  # change 1206
+  if(nrow(da[which(!is.na(da$pvalue) & da$p.adjust < 0.05),]) == 0){   
+    p <- "No significantly enriched term (adjusted p-value < 0.05) in this section!"   
     return(p)
   }
   
-  theme_dotplot <- theme_classic(base_size = 13) +  # 1028 change theme_bw() to theme_classic
+  theme_dotplot <- theme_classic(base_size = 13) +  
     theme(plot.title = element_text(hjust = 0.5,size=rel(1), colour = "black", face = "bold"),
           legend.position = "right",
           axis.line = element_line(linewidth = 0.5),
@@ -50,18 +48,18 @@ dotplot_enrich <- function(da, database,
     da <- da[which(da$Pathway_Class ==  kegg_class),]
     ti =  paste(c("KEGG pathway", " (", kegg_class,")"),collapse = "")
     fn = paste("./Output/M1_ORA/",database,"_",kegg_class,"_dotplot.pdf",sep = "")
-  }else if(database  %in% c("Class","Pathway","Disease","Drug")){  # 修改，将HUBMet四类term分别作为选项进行计算
+  }else if(database  %in% c("Class","Pathway","Disease","Drug")){   
     da <- da[which(da$TermClass ==  database),]
     ti = paste(c(database,"HUBMet" ),collapse = "-")
     fn = paste("./Output/M1_ORA/", "HUBMet_",database,"_dotplot.pdf",sep = "")
   }else{
     fn = paste("./Output/M1_ORA/",database,"_dotplot.pdf",sep = "")
     if(database == "humanGEM"){
-      ti = "HumanGEM-Subsystem" # 1028
+      ti = "HumanGEM-Subsystem" 
     }else if(database == 'reactome'){
       ti = "Reactome pathway"
     }else if(database %in%  c("disease","class","subclass","superclass")){
-      ti = paste("HMDB",stringr::str_to_title(colnames(da)[1]),   sep = "-") # 1028
+      ti = paste("HMDB",stringr::str_to_title(colnames(da)[1]),   sep = "-")  
     }   
   } 
   
@@ -72,10 +70,10 @@ dotplot_enrich <- function(da, database,
   if(nrow(da) == 0){
     p <- "No enriched term or adjusted p-value < 1 in this section!"
   }else{
-    danrow <- nrow(da) # 用于控制输出的pdf的height
+    danrow <- nrow(da)  
     colnames(da)[1] <- "term"
     
-    # 创建一个颜色渐变映射函数（和 ggplot 的 low-high 对应）
+     
     color_fun <- scales::col_numeric(palette = c("#e04c4c", "#fdd819"), domain = range(da$p.adjust, na.rm = TRUE))
     
     
@@ -100,15 +98,15 @@ dotplot_enrich <- function(da, database,
       labs(x="Enrichment Factor", title=element_blank(), 
            size = "Count", color= "p.adjust",  y = ti)+
       theme_dotplot
-    # 基于校正后p值范围修改颜色
+     
     if(min(da$p.adjust) == max(da$p.adjust) & min(da$p.adjust) > 0.05){
       p <- p + scale_color_gradient(high="#BEBEBE", low="#BEBEBE")
     }else{
-      # change 1206
+      
       p <- p + scale_color_gradient(  low="#e04c4c",high ="#fdd819" )
     }
     
-    # 基于绘制的条目数量调整pdf的高度height, 宽度with保持为7  
+     
     if(danrow < 15){
       ggsave(filename = fn,p,width = 7,height = 5)
     }else{
@@ -159,20 +157,20 @@ solve_redundant <- function(hmdb_list, hmdb_list_value, choice = "mean"){
 
 ## --------------Bar plot in MSEA-------------------------
 
-# barplot_msea 主要修改： export csv
+ 
 
 barplot_msea <- function(res_msea, database){
   library(tidyverse)
   top_N=10
-  # 处理res_msea无数据的情况，在结果页面提示下列return的句子
-  da <- res_msea %>% # change 1206
+   
+  da <- res_msea %>%  
     mutate(FDR = as.numeric(FDR),
            FDR_pri = as.numeric(FDR_pri),
-           NES = as.numeric( NES)) %>% # change 1206
-    filter(FDR < 0.25)   # change 1206
+           NES = as.numeric( NES)) %>%  
+    filter(FDR < 0.25)    
   
   if(nrow(da) == 0){
-    return("No significantly enriched metabolite set (FDR < 0.25)!")  # change 1206
+    return("No significantly enriched metabolite set (FDR < 0.25)!")  
   }
   
   rm(res_msea)
@@ -192,12 +190,12 @@ barplot_msea <- function(res_msea, database){
   fn=database
   
   if(database == "humanGEM"){
-    ti = "HumanGEM-Subsystem" # 1028
+    ti = "HumanGEM-Subsystem" 
   }else if(database == 'reactome'){
     ti = "Reactome pathway"
   }else if(database == 'disease'){
     ti = "HMDB-Disease"
-  }else if(database %in% c("Class","Pathway","Disease","Drug") ){  # 1028
+  }else if(database %in% c("Class","Pathway","Disease","Drug") ){  
     ti = paste(c(database,"HUBMet" ),collapse = "-")
     fn = paste("HUBMet",database, sep="_")
   }else if(database == "smpdb"){
@@ -208,7 +206,7 @@ barplot_msea <- function(res_msea, database){
   
   
   colnames(da)[1] <- "term"
-  da <- da[order(da$FDR_pri,-abs(da$NES)),] %>% # change
+  da <- da[order(da$FDR_pri,-abs(da$NES)),] %>%  
     mutate(logp_FDR = -log10(FDR) ,
            hit_n = as.integer(hit_n)) %>%
     slice_head(n = top_N) %>%
@@ -218,7 +216,7 @@ barplot_msea <- function(res_msea, database){
   if(nrow(da) == 0){
     p = "No enriched metabolite set!"
   }else{
-    danrow <- nrow(da) # a control pdf file height   
+    danrow <- nrow(da)  
     wrap_width <- 75
     if( max(da$NES)*min(da$NES) < 0 ){
       comp <- max(c(abs(max(da$NES)), abs(min(da$NES))))
@@ -232,7 +230,7 @@ barplot_msea <- function(res_msea, database){
     
     da <- da %>%
       mutate(termchr=term,
-             term = str_wrap(term, width = wrap_width)) %>% # 移动位置在control length之后
+             term = str_wrap(term, width = wrap_width)) %>%  
       arrange(desc(NES)) %>%
       mutate( term = factor(term, levels = rev(term)))
     
@@ -248,9 +246,9 @@ barplot_msea <- function(res_msea, database){
                 hjust = 0, size = 4, color = "black", alpha = 1)+
       geom_text(subset(da, NES<0), mapping = aes(label = term, x=0.01*min(NES)),
                 hjust =1, size = 4, color = "black", alpha = 1)+
-      geom_vline(aes(xintercept=0),linewidth=0.5,col="black")+ # change linetype, specify linewidth
+      geom_vline(aes(xintercept=0),linewidth=0.5,col="black")+  
       scale_y_discrete(labels=function(x) str_wrap(x, width=30))+
-      scale_x_continuous(expand = c(0,0), limits = x_lim)+ # add
+      scale_x_continuous(expand = c(0,0), limits = x_lim)+  
       labs(x="Normalized enrichment score", title="Metabolite set enrichment analysis (MSEA)", 
            color="FDR",size = "Hit count", y = ti)+
       theme_bar_msea
@@ -258,15 +256,15 @@ barplot_msea <- function(res_msea, database){
     if(min(da$FDR) == max(da$FDR) & min(da$FDR) > 0.25){
       p <- p + scale_fill_gradient(high="grey", low="grey")
     }else{ 
-      p <- p + scale_fill_gradient(  low="#e04c4c",high ="#fdd819" ) # change 1206
+      p <- p + scale_fill_gradient(  low="#e04c4c",high ="#fdd819" ) 
     }
     
     
     # export figure 
-    ggsave(filename = paste("./Output/M2_MSEA/",fn,"_barplot.pdf",sep = ""),p,width = 7,height = 5)  # 0404 add
+    ggsave(filename = paste("./Output/M2_MSEA/",fn,"_barplot.pdf",sep = ""),p,width = 7,height = 5) 
     
     
-    # 2507 csv
+     
     
     color_fun <- scales::col_numeric(palette = c("#e04c4c", "#fdd819"), domain = range(da$FDR, na.rm = TRUE))
     da <- da %>%
@@ -279,7 +277,7 @@ barplot_msea <- function(res_msea, database){
     
      
   }
-  #return(p)
+   
 }
 
 
@@ -292,8 +290,8 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
   top_N = 10
   choice = "mean"
   library(tidyverse)
-  # 处理res_msea中无数据的情况
-  da <- res_msea %>% # change 1206
+   
+  da <- res_msea %>%  
     mutate(FDR = as.numeric(FDR),
            FDR_pri = as.numeric(FDR_pri)) %>%  
     filter(FDR < 0.25) 
@@ -310,7 +308,7 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
     top_N = nrow(da)
   }
   
-  # 基于数据库确定pathway名称
+  
   if(database == "kegg"){
     path_name_index <- "KEGG_pathway_name"
     path_id_index <- "KEGG_pathway_ID"
@@ -326,7 +324,7 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
   }else if(database == "reactome"){
     path_name_index <- "reactome_name"
     path_id_index <- "reactome_id"
-  }else if(database %in% c("Class","Pathway","Disease","Drug")){  # HBM的适应化处理
+  }else if(database %in% c("Class","Pathway","Disease","Drug")){  
     path_name_index <- "Term"
     path_id_index <- "Term"
     colnames(da)[c(3,6)] <- c("HMDB.ID", "hit_HMDB_ID")
@@ -348,17 +346,16 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
     arrange(desc(hmdb_list_value_abs))
   
   
-  max_bk <- ceiling(abs(met_da$hmdb_list_value[1]))  # change 0409
+  max_bk <- ceiling(abs(met_da$hmdb_list_value[1]))  
   
-  # 修改，控制可视化横轴代谢物数量  
+  
   if(nrow(met_da) > 20){
     met_da <- met_da[1:20,1:2]
   }else{
     met_da <- met_da[,1:2]
   }
   
-  # 修改为代谢物名称
-  # HBM的适应化处理
+ 
   if(database %in% c("Class","Pathway","Disease","Drug")){
     met_da <- left_join(met_da, HUBMet_annotation[,c("HBM_ID","Name")], 
                         by =c("hmdb_list"="HBM_ID") )
@@ -371,7 +368,7 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
   
   da_plot <- dplyr::left_join(met_da, hmdb_need , by = c("hmdb_list"="hmdb")) %>% 
     filter(!is.na(hmdb_list)) 
-  if(database %in% c("humanGEM","disease","Class","Pathway","Disease","Drug")){ # 1103 change
+  if(database %in% c("humanGEM","disease","Class","Pathway","Disease","Drug")){  
     da_plot$pathway_name <- as.character(da_plot$set_name)
   }else{
     da_plot$pathway_name <- as.character(unlist(apply(da_plot[,c("set","set_name")],1, 
@@ -386,18 +383,16 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
   
   rownames(da_plot2) <- da_plot2$pathway_name
   
-  da_plot2 <- da_plot2[,-c(1),drop=FALSE]  # 添加drop == FALSE, 防止只剩一列时被转换成列表
-  
+  da_plot2 <- da_plot2[,-c(1),drop=FALSE]   
   
   # prepare for the plot
-  # 不控制代谢物名称长度, 如果设置名称长度限制，横轴代谢物名称会重叠 
+ 
   rownames(da_plot2) <- str_wrap(rownames(da_plot2), width = 40)
   
-  bk <- unique(c(seq(-abs(max_bk),0,by=abs(max_bk)/50),seq(0,abs(max_bk),by=abs(max_bk)/50))) # 为确保0值为白色
+  bk <- unique(c(seq(-abs(max_bk),0,by=abs(max_bk)/50),seq(0,abs(max_bk),by=abs(max_bk)/50))) 
   p <- NA
   
-  
-  # 处理只有一个代谢物的情况
+ 
   if(ncol(da_plot2) == 1 | nrow(da_plot2) == 1){
     p <- pheatmap::pheatmap(as.matrix(da_plot2), scale = "none",  legend = T, angle_col = "45", 
                             cluster_cols = F, cluster_rows = F,
@@ -445,18 +440,11 @@ msea_heatmap <- function(res_msea, hmdb_list, hmdb_list_value, database){
 
  
 msea_ER_forplot <- function(term_met, met_id, met_id_fc, forplot = F){
-  # 该函数是对单个代谢物集合进行单个metabolite set的enrichment分析
-  # 最终输出结果为最高的ES, pvalue，NES
-  # 以及每个数据集的N次permutation的NES结果，用于计算FDR
-  
-  
+    
   term_met <- strsplit(term_met, split = ";")[[1]]
   overlap <- intersect(term_met, met_id)
   
-  # 设定permutation的次数， 1000次,代码测试时可设置较小数值
-  #permutation_times <- 1000
-  
-  if(length(overlap) == 0){ # 如果input和数据集没有overlap，则输出NA
+  if(length(overlap) == 0){  
     if(forplot == T){
       return(NA)
     }else{
@@ -464,22 +452,21 @@ msea_ER_forplot <- function(term_met, met_id, met_id_fc, forplot = F){
     }
     
   }else{
-    # 排序，check overlap
+    
     da <- data.frame(met_id, met_id_fc)
     da$met_id_fc <- as.numeric(da$met_id_fc)
     
     da <- solve_redundant(da$met_id, da$met_id_fc, choice="mean")
     colnames(da) <- c("met_id","met_id_fc")
-    da <- da[order(da$met_id_fc, decreasing = T),] # 按照FC排序
+    da <- da[order(da$met_id_fc, decreasing = T),] 
     da$rank <- 1:nrow(da)
     rownames(da) <- da$met_id
     
     da[which(da$met_id %in% overlap),"hit"] <- "yes"
     da[which(!(da$met_id %in% overlap)),"hit"] <- "no"
     
-    # 计算real enrichment score
-    sum_hit <- sum(abs(da[which(da$hit == "yes"),"met_id_fc"]))  # sum of abs
-    da[which(da$hit == "yes"),"score"] <- abs(da[which(da$hit == "yes"),"met_id_fc"])/sum_hit # fraction of abs
+    sum_hit <- sum(abs(da[which(da$hit == "yes"),"met_id_fc"]))   
+    da[which(da$hit == "yes"),"score"] <- abs(da[which(da$hit == "yes"),"met_id_fc"])/sum_hit  
     da[which(da$hit == "no"),"score"] <- -1/(length(met_id)-length(overlap))
     
     
@@ -502,7 +489,7 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
   
   library(tidyverse)
   choice = "mean"
-  # 处理res为空data frame的情况
+ 
   if(nrow(res_msea) == 0){
     p <- ggplot()+theme(panel.background = element_rect(fill='transparent'))
     return(p)
@@ -510,9 +497,7 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
   
   res <- res_msea
   rm(res_msea)
-  
-  
-  # 获取pathway信息
+
   if(database == "smpdb"){
     term_met <- smpdb_term_anno_new_MSEA[which(smpdb_term_anno_new_MSEA$SMP.ID == pathway_ID),"HMDB.ID"]
     path_name <- smpdb_term_anno_new_MSEA[which(smpdb_term_anno_new_MSEA$SMP.ID == pathway_ID),"Pathway.Name"]
@@ -539,15 +524,14 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
     path_name <- pathway_ID
     nsp <- res[which(res$disease == pathway_ID), c("ES","NES","FDR","pvalue_nominal")]
     n_check <- nrow(res[which(res$disease == pathway_ID), ])
-  }else if(database %in% c("Class","Pathway","Disease","Drug")){ # 0322, HBM适应化处理
+  }else if(database %in% c("Class","Pathway","Disease","Drug")){  
     term_met <- HUBMet_term[which(HUBMet_term$Term == pathway_ID),"HBM_ID"]
     path_name <- pathway_ID
     nsp <- res[which(res$Term == pathway_ID), c("ES","NES","FDR","pvalue_nominal")]
     n_check <- nrow(res[which(res$Term == pathway_ID), ])
   }
   
-  
-  # 计算画图所需running score
+ 
   
   if(n_check==0){
     print("No hit metabolite in the metabolite sets! or No enough metabolite in the data set!")
@@ -555,35 +539,30 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
     temp <- solve_redundant(hmdb_list , hmdb_list_value, choice)
     es_path <- msea_ER_forplot(term_met, temp$hmdb_list , temp$hmdb_list_value, forplot = T) # 1103
     es <- es_path[which(es_path$label == "max"), "ES"]
-    
-    #y_label = max(es_path$ES) - 0.1*(abs(min(es_path$ES))+abs(max(es_path$ES))) #  remove
-    # 修改label_ES
+ 
     label_ES <- paste( c(paste("ES = ", round(nsp[1],3), sep = ""), 
                          paste("NES = ",round(nsp[2],3), sep = ""), 
                          paste("P = ",round(nsp[4],3), sep = ""), 
                          paste("FDR = ", round(nsp[3],3), sep = "")), collapse  = "; ") 
     
-    # pa有较多修改
+ 
     pa <- ggplot(es_path)+
       geom_hline(aes(yintercept=0),linetype="dashed",color="black", linewidth=0.5)+
       geom_line( mapping = aes(x=rank, y = ES), color = "grey20")+
       geom_bar(subset(es_path, label == "max" ) , mapping = aes(x=rank, y = ES), 
                
-               color = "red",fill = "red",stat = "identity", width = 0.25)+ #0813 添加fill = "red",
-      #scale_x_continuous(limits = c(1, max(es_path$rank)) )+
-      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+ # 0813 修改
+               color = "red",fill = "red",stat = "identity", width = 0.25)+   
+      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+  
       labs(x=element_blank(), y="Running Enrichment Score"   )+   
       ggtitle(paste( unique(c(path_name, pathway_ID)), collapse = "\n"), label_ES) +  
       
       theme_bw() +
       scale_y_continuous(expand = c(0,0))+
       theme(panel.grid=element_blank(),
-            #axis.line = element_line(linewidth = 0.5),
             plot.title = element_text(hjust = 0.5,size=14, colour = "black", face = "bold"),
             plot.subtitle = element_text(hjust = 0.5,size=13, colour = "black", face="italic"),  
             panel.background = element_blank(),
             panel.border = element_rect(linewidth = 0.5, color="black"),
-            #strip.text = element_text(face = "bold", size = 13),
             legend.position = "none",
             axis.ticks.x = element_blank(),
             axis.title.x =element_blank(), 
@@ -592,15 +571,15 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
             axis.title.y =element_text(size=13, colour = "black"),
             axis.text.y = element_text(size=13, colour = "black"))
     
-    # 增加pm
+    
     pm <- ggplot(es_path)+
-      #scale_x_continuous(limits = c(1, max(es_path$rank)) )+
-      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+ # 0813 修改
+      
+      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+  
       geom_vline(xintercept = es_path[which(es_path$hit == "yes"),]$rank,linetype="solid",color="black", linewidth=0.5)+
       theme_bw()+
       theme(axis.text = element_blank(),
             axis.ticks = element_blank(),
-            axis.title.x = element_blank(), # 0120添加
+            axis.title.x = element_blank(),  
             panel.border = element_rect(linewidth = 0.5, color="black"),
             panel.grid.major = element_blank(), 
             panel.grid.minor = element_blank())
@@ -609,39 +588,31 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
     pb <- ggplot(es_path)+
       
       geom_bar(subset(es_path, met_id_fc>=0) ,mapping = aes(x=rank, y = met_id_fc),
-               color = "#E53A40", fill= "#E53A40", stat = "identity", width = 0.1)+  # 添加 fill= "#E53A40",
+               color = "#E53A40", fill= "#E53A40", stat = "identity", width = 0.1)+  
       geom_bar(subset(es_path,met_id_fc<0) ,mapping = aes(x=rank, y = met_id_fc),
-               color = "#30A9DE", fill= "#30A9DE", stat = "identity", width = 0.1)+ # 添加 fill= "#30A9DE",
+               color = "#30A9DE", fill= "#30A9DE", stat = "identity", width = 0.1)+  
       geom_hline(aes(yintercept=0),linetype=5,col="black", linewidth=0.5)+
-      #scale_x_continuous(limits = c(1, max(es_path$rank)) )+
-      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+ # 0813 修改
+      
+      scale_x_continuous(limits = c(0, max(es_path$rank)+1) )+  
       labs(x="Metabolite rank", y="Ranking metric", title = element_blank())+
       theme_bw() +
       theme(panel.grid=element_blank(),
-            panel.border = element_rect(linewidth = 0.5, color="black"),
-            #plot.title = element_blank(),
-            panel.background = element_blank(),
-            #strip.text = element_text(face = "bold", size = 12),
+            panel.border = element_rect(linewidth = 0.5, color="black"), 
+            panel.background = element_blank(), 
             legend.position = "none",
             plot.margin = unit(c(0.0,0.2,0.2,0.2), "cm"),
-            axis.title  =element_text(size=13, colour = "black"), 
-            #axis.text.x =element_text(size=10, colour = "black"),
-            #axis.title.y =element_text(size=12, colour = "black"),
+            axis.title  =element_text(size=13, colour = "black"),  
             axis.text = element_text(size=13, colour = "black"))  
     
     suppressWarnings({p <- cowplot::plot_grid(pa,pm,NULL,pb,ncol = 1, align = "v", rel_heights = c(1,0.2,-0.0225,0.3))}) 
-    # add suppressWarnings for 'remove NS'
     
-    # 控制某些时候pathway_ID中存在"/"的情况，会被误识别为路径符
     pathway_ID <- gsub("/","_",pathway_ID)
     
     if(database %in% c("Class","Pathway","Disease","Drug")){
       database <- paste("HUBMet_",database,sep="")
-    }
-    
-    
+    } 
     ggsave(filename = paste("./Output/M2_MSEA/",database,"_",pathway_ID,"_RES.pdf",sep = ""),p,width = 7,height = 7) 
-    #return(p)
+   
   }
   
 }
@@ -650,10 +621,7 @@ msea_plot_ES_bar <- function(database, pathway_ID, hmdb_list, hmdb_list_value, r
 
 # ------------------ Pathview in ORA and MSEA---------------------
 
-
-#  此函数只针对kegg smpdb reactome 这3个数据库进行设置
-# 在结果显示页面提供单独的下载链接
-
+ 
 pathview_kegg_smpdb_reactome <- function(database, pathway_ID, hmdb_list, hmdb_list_value = NA){
   library(pathview)
   library(SBGNview)
@@ -676,7 +644,7 @@ pathview_kegg_smpdb_reactome <- function(database, pathway_ID, hmdb_list, hmdb_l
   da <- left_join(da, HMDB_ID_unique_name[,c("HMDB_ID_unique","KEGG_Compound_ID")],by = join_by(HMDB_ID_unique))
   da <- da[which(!is.na(da$KEGG_Compound_ID)),]
   
-  # 处理KEGG ID冗余问题, 画图默认取mean
+ 
   if(length(da$KEGG_Compound_ID) > length(unique(da$KEGG_Compound_ID))){
     a <- data.frame(table(da$KEGG_Compound_ID))
     a$Var1 <- as.character(a$Var1)
@@ -713,7 +681,7 @@ pathview_kegg_smpdb_reactome <- function(database, pathway_ID, hmdb_list, hmdb_l
     file.rename(paste(c("./","hsa",p_id,".need.png"), collapse = ""), 
                 paste(c("./Output/pathview/","hsa",p_id,".need.png"), collapse = ""))
     filename <- paste(c("./Output/pathview/","hsa",p_id,".need.png"), collapse = "")
-    # 将pathview直接展现出来
+   
     img <- png::readPNG(filename, native =T, info = T)
     grid::grid.newpage()
     grid::grid.raster(img)
@@ -750,7 +718,7 @@ pathview_kegg_smpdb_reactome <- function(database, pathway_ID, hmdb_list, hmdb_l
       }
       
       
-      print(SBGNview.obj) # 输出png图片
+      print(SBGNview.obj)  
       
       
       if(database == "smpdb"){
