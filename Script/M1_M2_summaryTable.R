@@ -4,7 +4,7 @@ library(tidyverse)
 library(data.table)
 
 
-sim_matrix_all <- read_rds("./Data/sim_matrix_all_V3_change_rowcolnames_1028.RDS")  
+sim_matrix_all <- read_rds("./Data/sim_matrix_all.RDS")  
 
  
 # chosen_database is a list:
@@ -185,7 +185,6 @@ fuzzy_cluster_m2 <- function(chosen_database){
  
 # ----------------Test --------------------
 
-summary <- fuzzy_cluster_m1(c("HUBMet_Pathway","smpdb" ))
+summary <- fuzzy_cluster_m1(c("HUBMet_Pathway","HUBMet_Class" ))
 
-summary <- fuzzy_cluster_m2(c("HUBMet_Pathway","HUBMet_Drug","HUBMet_Disease","HUBMet_Class",
-                              "disease","humanGEM","kegg","reactome","smpdb"))
+summary <- fuzzy_cluster_m2(c("HUBMet_Pathway","HUBMet_Drug","HUBMet_Disease","HUBMet_Class" ))
