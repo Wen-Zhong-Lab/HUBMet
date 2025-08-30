@@ -9,11 +9,11 @@ library(qgraph)
  
 dir.create("./Output/M4_MPNet", recursive = TRUE, showWarnings = FALSE)
 
-HUBMet_annotation <- readRDS("./Data/HUBMet_annotation_250827.RDS") 
-pro_met_ass_anno <- readRDS("./Data/pro_met_ass_anno_1120.RDS")
+HUBMet_annotation <- readRDS("./Data/HUBMet_annotation.RDS") 
+pro_met_ass_anno <- readRDS("./Data/pro_met_ass_anno.RDS")
 pro_met_ass <- pro_met_ass_anno[,c("PID","HBM_ID","Index","Evidence")]
-proID_ref_annotation <- readRDS("./Data/proID_ref_annotation_0717.RDS") 
-allnode <- read_rds("./Data/allnode_0717.RDS")  
+proID_ref_annotation <- readRDS("./Data/proID_ref_annotation.RDS") 
+allnode <- read_rds("./Data/allnode.RDS")  
  
 # ------------- Main function ------------------------------
 
