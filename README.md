@@ -2,8 +2,6 @@
 Datasets and code of the Human Blood Metabolite Database and Analytical Platform (**HUBMet**): https://hubmet.app.bio-it.tech/home
 
 
-\
-
 ## License
 
 This repository uses a multi-license scheme:
