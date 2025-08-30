@@ -4,9 +4,9 @@
 library(plyr)
 library(tidyverse)
 
-HUBMet_annotation <- readRDS("./Data/HUBMet_annotation_250827.RDS")    
-HUBMet_tissue_criteria <- readRDS("./Data/HUBMet_tissue_criteria_0825.RDS")  
-HUBMet_tissue_term <- readRDS("./Data/HUBMet_tissue_term_0825.RDS")  
+HUBMet_annotation <- readRDS("./Data/HUBMet_annotation.RDS")    
+HUBMet_tissue_criteria <- readRDS("./Data/HUBMet_tissue_criteria.RDS")  
+HUBMet_tissue_term <- readRDS("./Data/HUBMet_tissue_term.RDS")  
 
  
 dir.create("./Output/M3_TSA", recursive = TRUE, showWarnings = FALSE)
@@ -274,5 +274,5 @@ HUBMet_Tissue <- function(HBM_list, method = "fisher", adjp_method = "BH", adjus
 
 testda <- rio::import("./testda/testData1.txt")
 
-res <- HUBMet_Tissue(na.omit(unique(testda$metID)),adjustBackground = "blood",job_id = "test11_blood")
+res <- HUBMet_Tissue(na.omit(unique(testda$metID)),adjustBackground = "blood",job_id = "test42")
 
