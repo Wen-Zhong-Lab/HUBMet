@@ -1,0 +1,501 @@
+HUBMet ID	Name	Category	Tissue.Relevance	Tissue.Relevance.Reliability
+HUBMet000002	kynurenine	Amino Acid	brain;intestine;liver;lymphoid tissue;placenta;urinary bladder;adipose tissue;bone marrow;breast;cervix;gallbladder;heart muscle;kidney;lung;ovary;salivary gland;stomach	Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000003	alanine	Amino Acid	liver;adipose tissue;brain;breast;cervix;esophagus;gallbladder;heart muscle;intestine;kidney;lung;lymphoid tissue;pancreas;parathyroid gland;placenta;salivary gland;stomach;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000016	Creatine	Amino Acid	adipose tissue;brain;heart muscle;kidney;liver;skeletal muscle;urinary bladder;bone marrow;breast;esophagus;lymphoid tissue;ovary;skin;stomach;tongue	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000025	Xanthine	Nucleotide	bone marrow;intestine;kidney;liver;lymphoid tissue;placenta;skeletal muscle;urinary bladder;adipose tissue;adrenal gland;brain;breast;cervix;esophagus;gallbladder;heart muscle;lung;ovary;skin;stomach	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000033	lactate	Carbohydrate	adipose tissue;adrenal gland;bone marrow;brain;breast;cervix;endometrium;esophagus;gallbladder;heart muscle;intestine;kidney;liver;lung;lymphoid tissue;ovary;parathyroid gland;skeletal muscle;skin;stomach;urinary bladder;vagina	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000049	c-glycosyltryptophan	Amino Acid	Unknown	Unknown
+HUBMet000062	p-Cresol sulfate	Amino Acid	Low Specificity	Low Specificity
+HUBMet000076	3-Methoxytyrosine	Amino Acid	Low Specificity	Low Specificity
+HUBMet000078	5-dodecenoate (12:1n7)	Lipid	Unknown	Unknown
+HUBMet000082	cholate	Lipid	intestine;liver;kidney	High;High;Medium
+HUBMet000091	N-Acetylserine	Amino Acid	salivary gland;intestine;liver;lymphoid tissue;placenta;urinary bladder;vagina;adipose tissue;bone marrow;brain;cervix;endometrium;esophagus;gallbladder;heart muscle;kidney;lung;ovary;parathyroid gland;stomach	High;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000094	palmitate (16:0)	Lipid	adipose tissue;skin;breast;heart muscle;intestine;kidney;liver;ovary;skeletal muscle;urinary bladder;adrenal gland;brain;cervix;esophagus;gallbladder;lymphoid tissue;parathyroid gland;stomach;vagina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000100	taurolithocholate 3-sulfate	Lipid	Low Specificity	Low Specificity
+HUBMet000103	10-heptadecenoate (17:1n7)	Lipid	Low Specificity	Low Specificity
+HUBMet000130	DSGEGDFXAEGGGVR	Peptide	Unknown	Unknown
+HUBMet000132	gamma-glutamylmethionine	Peptide	Unknown	Unknown
+HUBMet000148	Piperine	Xenobiotics	salivary gland;bone marrow;liver;urinary bladder;adipose tissue;adrenal gland;brain;esophagus;intestine;kidney;lung;lymphoid tissue	High;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000149	quinate	Xenobiotics	Unknown	Unknown
+HUBMet000153	taurocholenate sulfate	Lipid	Unknown	Unknown
+HUBMet000156	Thyroxine	Amino Acid	liver;brain;cervix;gallbladder;intestine;ovary;placenta;thyroid gland;heart muscle;kidney;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low
+HUBMet000159	xanthurenate	Amino Acid	placenta;intestine;liver;lymphoid tissue;urinary bladder;adipose tissue;bone marrow;brain;cervix;endometrium;esophagus;heart muscle;kidney;lung;stomach;vagina	High;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000162	1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (p-16:0/18:2)	Lipid	bone marrow;brain;intestine;liver;lymphoid tissue;skin	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000165	1-(1-enyl-palmitoyl)-2-oleoyl-GPE (p-16:0/18:1)	Lipid	bone marrow;brain	Medium;Medium
+HUBMet000169	1-arachidonoyl-GPE (20:4n6)	Lipid	Low Specificity	Low Specificity
+HUBMet000181	1-palmitoleoylglycerol (16:1)	Lipid	Low Specificity	Low Specificity
+HUBMet000187	1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000197	1,2-dilinoleoyl-GPC (18:2/18:2)	Lipid	intestine;bone marrow;brain;gallbladder;liver;lymphoid tissue;skeletal muscle;skin	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000201	2-hydroxy-3-methylvalerate	Amino Acid	Unknown	Unknown
+HUBMet000225	cysteine-glutathione disulfide	Amino Acid	Unknown	Unknown
+HUBMet000228	ethylmalonate	Amino Acid	Unknown	Unknown
+HUBMet000254	n-methylproline	Amino Acid	salivary gland;bone marrow;brain;liver;tongue	High;Low;Low;Low;Low
+HUBMet000259	oleoyl ethanolamide	Lipid	Low Specificity	Low Specificity
+HUBMet000262	pregnanediol-3-glucuronide	Lipid	liver;intestine;kidney;gallbladder;urinary bladder	High;Medium;Medium;Low;Low
+HUBMet000268	Serotonin	Amino Acid	bone marrow;placenta;adipose tissue;adrenal gland;brain;cervix;gallbladder;intestine;kidney;liver;lung;lymphoid tissue;ovary;salivary gland;skeletal muscle;urinary bladder;breast;endometrium;esophagus;fallopian tube;heart muscle;pituitary gland;smooth muscle;stomach;thyroid gland;vagina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000280	trans-urocanate	Amino Acid	Unknown	Unknown
+HUBMet000292	1-lignoceroyl-GPC (24:0)	Lipid	placenta;adipose tissue;brain;breast;heart muscle;intestine;kidney;liver;lung;lymphoid tissue;ovary;parathyroid gland;skin;thyroid gland;urinary bladder;vagina	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000294	1-oleoyl-GPC (18:1)	Lipid	intestine;liver;lymphoid tissue	Medium;Medium;Medium
+HUBMet000299	1-stearoyl-2-linoleoyl-GPE (18:0/18:2)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000311	3-hydroxysebacate	Lipid	Unknown	Unknown
+HUBMet000317	5alpha-pregnan-3beta,20beta-diol monosulfate	Lipid	Unknown	Unknown
+HUBMet000325	docosadienoate (22:2n6)	Lipid	Unknown	Unknown
+HUBMet000335	Hexanoylcarnitine	Lipid	Low Specificity	Low Specificity
+HUBMet000337	Isovalerylglycine	Amino Acid	liver;kidney	Medium;Low
+HUBMet000348	n2,n5-diacetylornithine	Amino Acid	Unknown	Unknown
+HUBMet000356	Sphingosine 1-phosphate	Lipid	lymphoid tissue;intestine;liver	Medium;Low;Low
+HUBMet000374	5-methylthioadenosine (MTA)	Amino Acid	urinary bladder;intestine;liver;brain;lymphoid tissue	High;Medium;Medium;Low;Low
+HUBMet000376	Adenine	Nucleotide	adrenal gland;bone marrow;brain;cervix;choroid plexus;esophagus;intestine;liver;lymphoid tissue;stomach;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000398	Palmitoylcarnitine	Lipid	liver;adipose tissue;skeletal muscle	High;Medium;Medium
+HUBMet000427	4-acetamidophenol	Xenobiotics	liver;urinary bladder	High;Medium
+HUBMet000444	hyocholate	Lipid	intestine;liver	High;High
+HUBMet000463	thioproline	Xenobiotics	Unknown	Unknown
+HUBMet000464	Tiglylcarnitine	Amino Acid	Low Specificity	Low Specificity
+HUBMet000471	1-palmitoleoyl-2-linoleoyl-GPC (16:1/18:2)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skin	Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000473	1-palmitoyl-GPG (16:0)	Lipid	Unknown	Unknown
+HUBMet000474	1-stearoyl-2-oleoyl-GPI (18:0/18:1)	Lipid	bone marrow;intestine;brain;lymphoid tissue;retina;testis	High;High;Medium;Medium;Medium;Medium
+HUBMet000481	3b-Hydroxy-5-cholenoic acid	Lipid	liver	Medium
+HUBMet000489	behenoyl dihydrosphingomyelin (d18:0/22:0)	Lipid	intestine;lymphoid tissue;liver	High;Medium;Low
+HUBMet000517	linoleoyl ethanolamide	Lipid	Unknown	Unknown
+HUBMet000526	N4-Acetylcytidine	Nucleotide	endometrium;gallbladder;intestine;liver;lymphoid tissue;salivary gland;urinary bladder;adipose tissue;bone marrow;brain;cervix;esophagus;heart muscle;kidney;lung;parathyroid gland;stomach;vagina	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000529	palmitoleoylcarnitine (c16:1)	Lipid	Low Specificity	Low Specificity
+HUBMet000539	SM (d18:1/19:0, d19:1/18:0)	Lipid	Unknown	Unknown
+HUBMet000540	SM (d18:1/20:2, d18:2/20:1, d16:1/22:2)	Lipid	intestine;lymphoid tissue;liver	High;Medium;Low
+HUBMet000542	SM (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)	Lipid	intestine;liver;lymphoid tissue	High;Medium;Medium
+HUBMet000546	stearoylcholine	Lipid	Unknown	Unknown
+HUBMet000573	5-hydroxymethyl-2-furoic acid	Amino Acid	Unknown	Unknown
+HUBMet000584	cis-4-decenoyl carnitine	Lipid	Unknown	Unknown
+HUBMet000601	Myristoylcarnitine	Lipid	Low Specificity	Low Specificity
+HUBMet000605	n-palmitoyl-sphingadienine (d18:2/16:0)	Lipid	Unknown	Unknown
+HUBMet000607	n-stearoyltaurine	Lipid	Unknown	Unknown
+HUBMet000620	tigloylglycine	Amino Acid	liver	Medium
+HUBMet000621	valerate	Lipid	breast;intestine;liver;kidney	High;Medium;Medium;Low
+HUBMet000623	1-(1-enyl-palmitoyl)-2-docosahexaenoyl-GPC (p-16:0/22:6)	Lipid	bone marrow;brain;intestine;liver;lymphoid tissue;skin	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000625	1-(1-enyl-stearoyl)-2-arachidonoyl-GPC (p-18:0/20:4)	Lipid	intestine;liver;skin;bone marrow;brain;lymphoid tissue	Medium;Medium;Medium;Low;Low;Low
+HUBMet000626	1-(1-enyl-stearoyl)-2-docosahexaenoyl-GPC (p-18:0/22:6)	Lipid	bone marrow;brain;intestine;liver;lymphoid tissue;skin	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000634	1-dihomo-linoleoylglycerol (20:2)	Lipid	Unknown	Unknown
+HUBMet000636	1-docosahexaenoyl-GPE (22:6)	Lipid	Low Specificity	Low Specificity
+HUBMet000640	1-eicosapentaenoyl-GPE (20:5)	Lipid	Low Specificity	Low Specificity
+HUBMet000647	1-nonadecanoyl-GPC (19:0)	Lipid	intestine;liver;lymphoid tissue	Medium;Medium;Medium
+HUBMet000650	1-pentadecanoyl-2-linoleoyl-GPC (15:0/18:2)	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000653	1-stearoyl-2-dihomo-linolenoyl-GPC (18:0/20:3n3 or 6)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle;skin	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000664	2-arachidonoyl-GPE (20:4)	Lipid	Low Specificity	Low Specificity
+HUBMet000670	2-oleoyl-GPC (18:1)	Lipid	Unknown	Unknown
+HUBMet000671	2-oxindole-3-acetate	Xenobiotics	Unknown	Unknown
+HUBMet000682	3-hydroxy-2-methylpyridine sulfate	Xenobiotics	Unknown	Unknown
+HUBMet000703	bradykinin	Peptide	Unknown	Unknown
+HUBMet000705	butyrate	Lipid	bone marrow;brain;intestine;kidney;liver;lymphoid tissue;skeletal muscle;adipose tissue;adrenal gland;breast;cervix;esophagus;heart muscle;lung;ovary;skin;stomach;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000715	docosatrienoate (22:3n3)	Lipid	adipose tissue;intestine;kidney;liver;brain;retina;skeletal muscle	Medium;Medium;Medium;Medium;Low;Low;Low
+HUBMet000720	dopamine sulfate	Amino Acid	Unknown	Unknown
+HUBMet000727	glycosyl-n-behenoyl-sphingadienine (d18:2/22:0)	Lipid	intestine;liver;lymphoid tissue	High;Medium;Medium
+HUBMet000732	Hydrochlorothiazide	Xenobiotics	intestine	Medium
+HUBMet000741	metformin	Xenobiotics	kidney	Low
+HUBMet000751	n6-methyladenosine	Nucleotide	Unknown	Unknown
+HUBMet000754	oleoyl-arachidonoyl-glycerol (18:1/20:4)	Lipid	brain;skin;adipose tissue;bone marrow;breast;intestine;kidney;liver;lymphoid tissue;pituitary gland;retina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000755	Omeprazole	Xenobiotics	liver	Low
+HUBMet000760	perfluorooctanoate (PFOA)	Xenobiotics	Unknown	Unknown
+HUBMet000771	Tetradecanoylcarnitine	Lipid	liver;skeletal muscle	Medium;Low
+HUBMet000796	2-ethylphenylsulfate	Xenobiotics	Unknown	Unknown
+HUBMet000799	2-hydroxybehenate	Lipid	Unknown	Unknown
+HUBMet000829	4-Hydroxy-2-oxoglutaric acid	Lipid	Low Specificity	Low Specificity
+HUBMet000836	5-methylthioribose	Amino Acid	Unknown	Unknown
+HUBMet000843	8-Methoxykynurenate	Amino Acid	Low Specificity	Low Specificity
+HUBMet000859	Corticosterone	Lipid	adrenal gland	Medium
+HUBMet000860	deoxycholic acid 12-sulfate	Lipid	Unknown	Unknown
+HUBMet000868	Escitalopram	Xenobiotics	Low Specificity	Low Specificity
+HUBMet000899	LysoPC a c14:0	Lipid	Unknown	Unknown
+HUBMet000906	margaroylcarnitine (c17)	Lipid	liver;skeletal muscle	Medium;Low
+HUBMet000907	N-Acetylhistamine	Amino Acid	Low Specificity	Low Specificity
+HUBMet000914	n6,n6-dimethyllysine	Amino Acid	esophagus;gallbladder;intestine;liver;lymphoid tissue;urinary bladder;vagina;adipose tissue;bone marrow;brain;cervix;heart muscle;kidney;lung;placenta;salivary gland;stomach	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet000917	p-Cresol glucuronide	Amino Acid	kidney;liver	Medium;Medium
+HUBMet000919	palmitoyl-oleoyl-glycerol (16:0/18:1)	Lipid	brain;skin;bone marrow;breast;lymphoid tissue;retina;adipose tissue;intestine;kidney;liver;pituitary gland	High;High;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet000928	PC ae c38:4	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000932	PC ae c44:4	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000933	PC aa c24:0	Lipid	Unknown	Unknown
+HUBMet000943	Pregnenolone sulfate	Lipid	Low Specificity	Low Specificity
+HUBMet000945	Putrescine	Amino Acid	kidney;liver	High;High
+HUBMet000951	Sitagliptin	Xenobiotics	Low Specificity	Low Specificity
+HUBMet000954	SM c18:0	Lipid	Unknown	Unknown
+HUBMet000978	1-methyl-5-imidazolelactate	Amino Acid	Unknown	Unknown
+HUBMet000981	1-oleoyl-2-linoleoyl-glycerol (18:1/18:2)	Lipid	Unknown	Unknown
+HUBMet000982	1-oleoyl-2-linoleoyl-GPI (18:1/18:2)	Lipid	Unknown	Unknown
+HUBMet000983	1-oleoyl-3-linoleoyl-glycerol (18:1/18:2)	Lipid	Unknown	Unknown
+HUBMet000984	1-oleoyl-GPA (18:1)	Lipid	Unknown	Unknown
+HUBMet000985	1-oleoyl-GPS (18:1)	Lipid	Unknown	Unknown
+HUBMet000988	1-palmitoyl-2-dihomo-linolenoyl-GPE (16:0/20:3)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet000997	11-ketoetiocholanolone glucuronide	Lipid	Unknown	Unknown
+HUBMet000999	12-HHTrE	Lipid	Unknown	Unknown
+HUBMet001015	3-Methylcrotonylglycine	Amino Acid	liver	Medium
+HUBMet001027	Allopurinol	Xenobiotics	liver;intestine	Medium;Low
+HUBMet001034	aspartic acid	Amino Acid	bone marrow;liver;adipose tissue;adrenal gland;brain;cervix;esophagus;heart muscle;intestine;kidney;lung;lymphoid tissue;skeletal muscle;stomach;tongue	High;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001036	butenylcarnitine	Lipid	Unknown	Unknown
+HUBMet001044	CE(18:2)	Lipid	Low Specificity	Low Specificity
+HUBMet001046	CE(20:3)	Lipid	Low Specificity	Low Specificity
+HUBMet001073	gamma-tocopherol	Cofactors and Vitamins	intestine;liver	Medium;Medium
+HUBMet001078	Glycocholic acid	Lipid	intestine;breast;gallbladder;liver;placenta;urinary bladder;brain;heart muscle;kidney;lymphoid tissue;salivary gland;stomach	High;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low
+HUBMet001083	HWESASLLR	Peptide	Unknown	Unknown
+HUBMet001085	hydroxybupropion	Xenobiotics	Unknown	Unknown
+HUBMet001098	leucylphenylalanine	Peptide	Unknown	Unknown
+HUBMet001109	methylsuccinoylcarnitine	Amino Acid	Unknown	Unknown
+HUBMet001110	Mycophenolic acid	Xenobiotics	kidney;liver	Medium;Medium
+HUBMet001122	n,n-dimethyl-5-aminovalerate	Amino Acid	Unknown	Unknown
+HUBMet001126	norcotinine	Xenobiotics	Unknown	Unknown
+HUBMet001129	o-desmethyltramadol glucuronide	Xenobiotics	Unknown	Unknown
+HUBMet001136	PC(32:1)	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001151	PI(36:4)	Lipid	bone marrow;intestine;brain;lymphoid tissue;retina;testis	High;High;Medium;Medium;Medium;Medium
+HUBMet001152	PI(38:4)	Lipid	bone marrow;intestine;brain;lymphoid tissue;retina;testis	High;High;Medium;Medium;Medium;Medium
+HUBMet001162	Pyroglutamic acid	Amino Acid	bone marrow;brain;intestine;liver;lymphoid tissue;ovary;placenta;skeletal muscle;tongue;urinary bladder;adipose tissue;adrenal gland;breast;cervix;esophagus;heart muscle;kidney;lung;salivary gland;skin;stomach;vagina	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001165	Retinal	Xenobiotics	liver;intestine;adipose tissue;esophagus	High;Medium;Low;Low
+HUBMet001174	taurolithocholate	Lipid	liver	Medium
+HUBMet001177	Thromboxane B2	Lipid	liver	Low
+HUBMet001198	1-linolenoyl-GPE (18:3)	Lipid	Low Specificity	Low Specificity
+HUBMet001208	1-palmitoleoyl-3-oleoyl-glycerol (16:1/18:1)	Lipid	Unknown	Unknown
+HUBMet001216	1-palmityl-GPE (o-16:0)	Lipid	Unknown	Unknown
+HUBMet001217	1-pentadecanoyl-2-arachidonoyl-GPC (15:0/20:4)	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001225	1,2-propanediol	Lipid	liver	High
+HUBMet001226	1,3-dimethyluric acid	Xenobiotics	Unknown	Unknown
+HUBMet001231	15-HETE	Lipid	Low Specificity	Low Specificity
+HUBMet001235	2-aminoethanol	Lipid	bone marrow	Medium
+HUBMet001237	2-docosahexaenoylglycerol (22:6)	Lipid	Low Specificity	Low Specificity
+HUBMet001248	2-oleoyl-GPE (18:1)	Lipid	Low Specificity	Low Specificity
+HUBMet001249	2-palmitoylglycero	Lipid	Unknown	Unknown
+HUBMet001252	2-propyl-4-pentenoate (4-ene-valproate)	Xenobiotics	liver;intestine	High;Low
+HUBMet001255	2,3-dimethylsuccinic acid	Others	Unknown	Unknown
+HUBMet001271	3-hydroxyphenylacetate sulfate	Amino Acid	Unknown	Unknown
+HUBMet001275	3-hydroxyvalproate	Xenobiotics	Unknown	Unknown
+HUBMet001282	3-methylurate	Xenobiotics	Unknown	Unknown
+HUBMet001293	4-Hydroxybenzoic acid	Cofactors and Vitamins	Low Specificity	Low Specificity
+HUBMet001307	5-hydroxytryptophan	Amino Acid	placenta;intestine;liver;lymphoid tissue;urinary bladder;adipose tissue;bone marrow;brain;cervix;choroid plexus;gallbladder;heart muscle;kidney;lung;ovary	High;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001308	5-hydroxyvalproate	Xenobiotics	Unknown	Unknown
+HUBMet001309	5,8-tetradecadienoate	Lipid	Unknown	Unknown
+HUBMet001316	8-hydroxyoctanoate	Lipid	Unknown	Unknown
+HUBMet001322	aconitic acid	Energy	Unknown	Unknown
+HUBMet001327	act(14:1)	Lipid	Unknown	Unknown
+HUBMet001337	adrenoylcarnitine (c22:4)	Lipid	Unknown	Unknown
+HUBMet001338	Aldosterone	Lipid	Low Specificity	Low Specificity
+HUBMet001349	Androstenedione	Lipid	intestine;liver;adrenal gland;placenta	High;High;Medium;Medium
+HUBMet001353	arachidonoylglycerophosphoinositol	Lipid	Unknown	Unknown
+HUBMet001370	Caffeic acid	Others	Low Specificity	Low Specificity
+HUBMet001372	Carnitine 16:0	Lipid	bone marrow;heart muscle;intestine;liver;lymphoid tissue;skeletal muscle;adipose tissue;adrenal gland;brain;cervix;esophagus;lung;stomach;tongue;urinary bladder	Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001381	CE(22:6)	Lipid	Low Specificity	Low Specificity
+HUBMet001390	Cer 1p c26:3	Lipid	Unknown	Unknown
+HUBMet001396	Cer(40:1)	Lipid	Unknown	Unknown
+HUBMet001401	Cer(42:0)	Lipid	Unknown	Unknown
+HUBMet001402	Cer(42:1)	Lipid	Unknown	Unknown
+HUBMet001406	Cer(44:11)	Lipid	Unknown	Unknown
+HUBMet001414	Cer(d39:1)	Lipid	Unknown	Unknown
+HUBMet001425	chenodeoxycholic acid sulfate	Lipid	liver	Medium
+HUBMet001428	Ciprofloxacin	Xenobiotics	liver	High
+HUBMet001433	citalopram propionate	Xenobiotics	Low Specificity	Low Specificity
+HUBMet001449	DG(16:0_18:1)	Lipid	Unknown	Unknown
+HUBMet001488	diacylglycerol (12:0/18:1, 14:0/16:1, 16:0/14:1)	Lipid	brain;skin;adipose tissue;bone marrow;breast;intestine;kidney;lymphoid tissue;pituitary gland;retina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001493	dihydroprogesterone	Lipid	Low Specificity	Low Specificity
+HUBMet001515	Estradiol	Lipid	intestine;liver;kidney;urinary bladder;gallbladder	High;High;Medium;Medium;Low
+HUBMet001537	linolenic acid	Lipid	adipose tissue;skin;intestine;kidney;liver;brain;heart muscle;lymphoid tissue;retina;skeletal muscle;vagina	High;High;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low
+HUBMet001540	FA(20:1)	Lipid	Unknown	Unknown
+HUBMet001541	eicosenoic acid	Lipid	adipose tissue;intestine;kidney;liver;brain;retina;skeletal muscle	Medium;Medium;Medium;Medium;Low;Low;Low
+HUBMet001546	FA(20:4)	Lipid	Unknown	Unknown
+HUBMet001563	FA(11:0)	Lipid	Unknown	Unknown
+HUBMet001566	Fatty acid 12:0(5z)	Lipid	Unknown	Unknown
+HUBMet001568	Fatty acid 14:1(9z)	Lipid	Unknown	Unknown
+HUBMet001571	Fatty acid 16:1(9z)	Lipid	Unknown	Unknown
+HUBMet001578	Fatty acid 18:4(6z,9z,12z,15z)	Lipid	Unknown	Unknown
+HUBMet001579	Fatty acid 19:1(10z)	Lipid	Unknown	Unknown
+HUBMet001587	Fatty acid 22:6(4z,7z,10z,13z,16z,19z)	Lipid	Unknown	Unknown
+HUBMet001591	FA(9:0)	Lipid	Unknown	Unknown
+HUBMet001593	fibrinopeptide a (3-15)	Peptide	Unknown	Unknown
+HUBMet001603	Fluconazole	Xenobiotics	liver	Medium
+HUBMet001611	GalCer sulf c24:2	Lipid	Unknown	Unknown
+HUBMet001625	glutamate, gamma-methyl ester	Amino Acid	Unknown	Unknown
+HUBMet001631	Glyceric acid	Others	urinary bladder;bone marrow;intestine;liver;lung;lymphoid tissue;adipose tissue;adrenal gland;brain;esophagus;heart muscle;kidney;salivary gland;skeletal muscle;skin;stomach	High;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001644	Guanine	Nucleotide	brain;liver	Medium;Medium
+HUBMet001646	Guanosine monophosphate	Nucleotide	brain;intestine;skeletal muscle;bone marrow;kidney	Medium;Medium;Medium;Low;Low
+HUBMet001647	Hepes	Xenobiotics	Unknown	Unknown
+HUBMet001678	indole-5-carboxylic acid	Others	Unknown	Unknown
+HUBMet001684	isocaproate	Lipid	Unknown	Unknown
+HUBMet001693	L-Cysteine	Amino Acid	adrenal gland;brain;intestine;kidney;liver;pancreas;skeletal muscle;bone marrow;esophagus	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low
+HUBMet001709	L-Tyrosine	Amino Acid	placenta;adipose tissue;adrenal gland;brain;breast;cervix;choroid plexus;gallbladder;heart muscle;intestine;kidney;liver;lung;lymphoid tissue;ovary;pancreas;parathyroid gland;salivary gland;skeletal muscle;stomach;thyroid gland;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001714	lauric acid	Lipid	adipose tissue;intestine;skin;breast;kidney;liver;tongue	High;High;High;Medium;Medium;Medium;Low
+HUBMet001717	isoleucylphenylalanine	Peptide	Unknown	Unknown
+HUBMet001721	Lidocaine	Xenobiotics	liver	High
+HUBMet001742	LysoPE(16:0)	Lipid	bone marrow;intestine;liver;lymphoid tissue;ovary;placenta;skeletal muscle;urinary bladder;adipose tissue;adrenal gland;brain;breast;cervix;esophagus;heart muscle;kidney;lung;skin;stomach	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001769	malyl-fumarylcarnitine	Lipid	Unknown	Unknown
+HUBMet001782	Mirtazapine	Xenobiotics	liver;brain	Medium;Low
+HUBMet001788	myristoleamide (14:1)	Lipid	Unknown	Unknown
+HUBMet001793	N-Acetyl-D-tryptophan	Amino Acid	liver;gallbladder;placenta;vagina;bone marrow;brain;cervix;esophagus;heart muscle;intestine;lymphoid tissue;ovary;skin;urinary bladder	High;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001797	n-acetyltheanine	Xenobiotics	Unknown	Unknown
+HUBMet001801	n-linoleoylglycine	Lipid	Unknown	Unknown
+HUBMet001803	n-nervonoyl-sphingadiene (d18:2/24:1)	Lipid	Unknown	Unknown
+HUBMet001819	nicotinamide n-oxide	Cofactors and Vitamins	Unknown	Unknown
+HUBMet001823	Nifedipine	Xenobiotics	liver;intestine	High;Medium
+HUBMet001825	nonadecenamide (19:1)	Lipid	Unknown	Unknown
+HUBMet001828	nornicotine	Xenobiotics	Unknown	Unknown
+HUBMet001846	Olmesartan	Xenobiotics	liver	Low
+HUBMet001848	oxaloacetic acid	Energy	heart muscle;intestine;kidney;liver;adipose tissue;adrenal gland;brain;cervix;choroid plexus;esophagus;lymphoid tissue;salivary gland;skeletal muscle;tongue;urinary bladder;vagina	Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet001850	p-Cresol	Amino Acid	Low Specificity	Low Specificity
+HUBMet001851	para-hydroxyatorvastatin	Xenobiotics	Unknown	Unknown
+HUBMet001860	PA(38:1)	Lipid	brain;intestine;retina	High;Medium;Medium
+HUBMet001863	PA(41:2)	Lipid	Unknown	Unknown
+HUBMet001877	palmitoylplasmenylethanolamine	Lipid	Unknown	Unknown
+HUBMet001887	PC(O-16:1_18:2)	Lipid	Unknown	Unknown
+HUBMet001889	PC(O-18:0_14:0)	Lipid	Unknown	Unknown
+HUBMet001894	PC(O-18:1_20:4)	Lipid	Unknown	Unknown
+HUBMet001900	PCO 17:0	Lipid	Unknown	Unknown
+HUBMet001903	PC-p(39:7)	Lipid	Unknown	Unknown
+HUBMet001905	PC-p 40:6	Lipid	Unknown	Unknown
+HUBMet001907	PC(36:3)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle;skin	Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001925	PC aa (oh, cooh) c24:2	Lipid	Unknown	Unknown
+HUBMet001929	PC aa c32:1	Lipid	skin;intestine;liver;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	High;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001930	PC aa c32:2	Lipid	adipose tissue;intestine;liver;skin;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001934	PC aa c34:4	Lipid	skin;intestine;liver;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	High;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001939	PC aa c36:6	Lipid	skin;intestine;liver;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	High;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001944	PC aa c38:5	Lipid	skin;intestine;liver;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	High;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001945	PC aa c38:6	Lipid	intestine;liver;skin;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	Medium;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001954	PC aa c42:6	Lipid	skin;intestine;liver;bone marrow;brain;gallbladder;lymphoid tissue;skeletal muscle	High;Medium;Medium;Low;Low;Low;Low;Low
+HUBMet001975	PC ae c38:0	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet001982	PC ae c40:1	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet002004	PC(16:0_18:0)	Lipid	Unknown	Unknown
+HUBMet002015	PC(16:0_22:6)	Lipid	Unknown	Unknown
+HUBMet002035	PC(20:3(8z,11z,14z)/0:0)	Lipid	Unknown	Unknown
+HUBMet002041	PC(32:2)	Lipid	liver;adipose tissue;adrenal gland;bone marrow;brain;breast;cervix;esophagus;gallbladder;heart muscle;intestine;kidney;lung;lymphoid tissue;ovary;pituitary gland;salivary gland;stomach;thyroid gland;urinary bladder	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet002072	PC(42:10)	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet002085	PE(O-18:1_18:2)	Lipid	Unknown	Unknown
+HUBMet002088	PE(P-18:1/20:3)	Lipid	Unknown	Unknown
+HUBMet002089	PE(O-16:0/18:2)	Lipid	Unknown	Unknown
+HUBMet002090	PE-p 40:7	Lipid	Unknown	Unknown
+HUBMet002094	PE a (oh, cooh) c12:2	Lipid	Unknown	Unknown
+HUBMet002097	PE aa (cooh) c14:1	Lipid	Unknown	Unknown
+HUBMet002101	PE aa c34:2	Lipid	Unknown	Unknown
+HUBMet002108	PE aa c38:6	Lipid	Unknown	Unknown
+HUBMet002121	PE e (oh) c18:1	Lipid	Unknown	Unknown
+HUBMet002132	PE(36:5)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet002135	PE(38:5)	Lipid	Unknown	Unknown
+HUBMet002136	PE(40:2)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue	Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet002151	peg-glucuronide	Xenobiotics	Unknown	Unknown
+HUBMet002155	PG-o 34:0	Lipid	Unknown	Unknown
+HUBMet002156	PG-o 38:0	Lipid	Unknown	Unknown
+HUBMet002157	PG-o 40:0	Lipid	Unknown	Unknown
+HUBMet002163	PG aa (oh, cooh) c20:2	Lipid	Unknown	Unknown
+HUBMet002179	phenylalanylglutamate	Peptide	Low Specificity	Low Specificity
+HUBMet002194	PI a (oh) c12:3	Lipid	Unknown	Unknown
+HUBMet002211	PI(18:1_18:1)	Lipid	Unknown	Unknown
+HUBMet002218	PI(35:2)	Lipid	Unknown	Unknown
+HUBMet002219	PI(36:0)	Lipid	bone marrow;intestine;brain;lymphoid tissue;retina;testis	High;High;Medium;Medium;Medium;Medium
+HUBMet002227	PI(40:6)	Lipid	bone marrow;intestine;brain;lymphoid tissue;retina;testis	High;High;Medium;Medium;Medium;Medium
+HUBMet002230	PI(35:0)	Lipid	Unknown	Unknown
+HUBMet002236	PIP2 aa c24:0	Lipid	Unknown	Unknown
+HUBMet002237	PIP2 aa c26:0	Lipid	Unknown	Unknown
+HUBMet002245	PS-o 35:2	Lipid	Unknown	Unknown
+HUBMet002250	PS-p 42:2	Lipid	Unknown	Unknown
+HUBMet002254	PS(33:0)	Lipid	Unknown	Unknown
+HUBMet002260	PS(39:4)	Lipid	Unknown	Unknown
+HUBMet002274	PS(44:7)	Lipid	Unknown	Unknown
+HUBMet002288	Rosuvastatin	Xenobiotics	liver	High
+HUBMet002298	SM (cooh) c14:1	Lipid	Unknown	Unknown
+HUBMet002310	SM (oh) c20:1	Lipid	Unknown	Unknown
+HUBMet002316	SM (oh) c24:2	Lipid	Unknown	Unknown
+HUBMet002317	SM (oh) c26:0	Lipid	Unknown	Unknown
+HUBMet002321	SM (oh,cooh) c12:0	Lipid	Unknown	Unknown
+HUBMet002322	SM (oh,cooh) c14:1	Lipid	Unknown	Unknown
+HUBMet002336	SM (oh,cooh) c6:0	Lipid	Unknown	Unknown
+HUBMet002344	SM(24:0)	Lipid	Unknown	Unknown
+HUBMet002346	SM c12:0	Lipid	Unknown	Unknown
+HUBMet002352	SM c20:4	Lipid	Unknown	Unknown
+HUBMet002362	SM c28:0	Lipid	Unknown	Unknown
+HUBMet002369	SM(34:2)	Lipid	liver;adipose tissue;brain;breast;heart muscle;intestine	Medium;Low;Low;Low;Low;Low
+HUBMet002378	SM(39:1)	Lipid	Unknown	Unknown
+HUBMet002417	SM(d39:2)	Lipid	Unknown	Unknown
+HUBMet002425	SM(d42:1)	Lipid	Unknown	Unknown
+HUBMet002435	Sorbitol	Carbohydrate	adrenal gland;liver;bone marrow	Medium;Medium;Low
+HUBMet002438	Suberic acid	Lipid	Low Specificity	Low Specificity
+HUBMet002439	suberoyl carnitine	Lipid	Unknown	Unknown
+HUBMet002450	TG(40:1)	Lipid	Unknown	Unknown
+HUBMet002454	TG(44:0)	Lipid	adipose tissue;intestine;liver;breast;pancreas	High;High;High;Medium;Low
+HUBMet002458	TG(46:1)	Lipid	adipose tissue;breast;liver;intestine;pancreas	High;High;High;Medium;Medium
+HUBMet002474	TG(53:3)	Lipid	adipose tissue;intestine;liver;pancreas	High;High;High;Medium
+HUBMet002486	TG(56:9)	Lipid	adipose tissue;liver;breast;intestine;pancreas	High;High;Medium;Medium;Medium
+HUBMet002490	TG(58:10)	Lipid	adipose tissue;liver;breast;intestine;pancreas	High;High;Medium;Medium;Medium
+HUBMet002505	tauroursodeoxycholic acid	Lipid	Unknown	Unknown
+HUBMet002508	Testosterone glucuronide	Lipid	liver;intestine;kidney;gallbladder;urinary bladder	High;Medium;Medium;Low;Low
+HUBMet002531	TG(59:12)	Lipid	adipose tissue;intestine;liver;pancreas	High;High;High;Medium
+HUBMet002552	TG(56:4)	Lipid	adipose tissue;liver;breast;intestine;pancreas	High;High;Medium;Medium;Medium
+HUBMet002560	Thymine	Nucleotide	Low Specificity	Low Specificity
+HUBMet002562	trans-3,4-methyleneheptanoate	Xenobiotics	Unknown	Unknown
+HUBMet002574	uridine diphosphate	Nucleotide	intestine;stomach;bone marrow;kidney;liver;skeletal muscle;thyroid gland;adipose tissue;brain;breast;esophagus;gallbladder;heart muscle;ovary;salivary gland;testis;urinary bladder	High;High;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet002585	5alpha-pregnan-3beta,20alpha-disulfate	Lipid	Unknown	Unknown
+HUBMet002588	n1-methyl-3-pyridone-4-carboxamide	Nucleotide	Unknown	Unknown
+HUBMet002598	Uridine diphosphate glucose	Nucleotide	bone marrow;brain;cervix;intestine;liver;lymphoid tissue;skeletal muscle;adipose tissue;adrenal gland;breast;esophagus;fallopian tube;gallbladder;heart muscle;kidney;lung;ovary;placenta;salivary gland;skin;stomach;thyroid gland;urinary bladder;vagina	High;Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet002609	glutaconate	Energy	Unknown	Unknown
+HUBMet002653	Carnitine 9:0	Lipid	esophagus;skin;vagina;placenta;adipose tissue;adrenal gland;brain;heart muscle;intestine;liver;lymphoid tissue;ovary;salivary gland;urinary bladder	High;High;High;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet002654	Carnitine dc3:0;2me	Lipid	gallbladder;intestine;liver;lymphoid tissue;urinary bladder;adipose tissue;bone marrow;brain;cervix;esophagus;heart muscle;kidney;lung;parathyroid gland;placenta;salivary gland;skin;stomach;vagina	Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet002666	LPC(o-18:1)	Lipid	Unknown	Unknown
+HUBMet002670	N-Arachidonoyl dopamine	Lipid	liver;intestine;pancreas	Medium;Low;Low
+HUBMet002675	n-oleoyl dopamine	Lipid	Low Specificity	Low Specificity
+HUBMet002678	PC p-34:2	Lipid	Unknown	Unknown
+HUBMet002685	PE o-36:3	Lipid	Unknown	Unknown
+HUBMet002686	PE o-36:5	Lipid	Unknown	Unknown
+HUBMet002693	PE p-36:2	Lipid	Unknown	Unknown
+HUBMet002707	SM(d18:1/18:1)	Lipid	intestine;liver;lymphoid tissue;salivary gland;brain;breast;heart muscle;kidney;stomach;urinary bladder	Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low
+HUBMet002725	11-Dehydrocorticosterone	Lipid	Low Specificity	Low Specificity
+HUBMet002730	2-palmitoleoyl-GPC	Lipid	Unknown	Unknown
+HUBMet002732	4-androsten-3alpha,17alpha-diol monosulfate (3)	Lipid	Unknown	Unknown
+HUBMet002742	Cer(d18:1/24:2)	Lipid	Unknown	Unknown
+HUBMet002746	Dehydroabietic acid	Lipid	Unknown	Unknown
+HUBMet002747	DG(36:3)	Lipid	bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;adipose tissue;adrenal gland;breast;cervix;esophagus;heart muscle;kidney;lung;ovary;stomach;thyroid gland;urinary bladder	Medium;Medium;Medium;Medium;Medium;Medium;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low;Low
+HUBMet002750	Eicosanedioate	Lipid	Low Specificity	Low Specificity
+HUBMet002751	Eicoseneoyl carnitine	Lipid	Unknown	Unknown
+HUBMet002754	GalCer(d18:1/23:0)	Lipid	Unknown	Unknown
+HUBMet002767	Octenoyl carnitine	Lipid	Unknown	Unknown
+HUBMet002768	PA(38:5)	Lipid	brain;intestine;retina	High;Medium;Medium
+HUBMet002774	PC(18:2/0:0)_linoleoyl	Lipid	Unknown	Unknown
+HUBMet002780	PC(O-35:1)	Lipid	Unknown	Unknown
+HUBMet002781	PC(o-16:0/0:0)_O-palmityl	Lipid	Unknown	Unknown
+HUBMet002794	SM(d18:1/12:0)	Lipid	intestine;lymphoid tissue;liver	High;Medium;Low
+HUBMet002795	SM(d18:0/15:0)	Lipid	Unknown	Unknown
+HUBMet002804	TG(38:0)	Lipid	Unknown	Unknown
+HUBMet002806	TG(47:2)	Lipid	adipose tissue;liver;breast;intestine;pancreas	High;High;Medium;Medium;Low
+HUBMet002810	TG(55:4)	Lipid	adipose tissue;intestine;liver;pancreas	High;High;High;Medium
+HUBMet002812	TG(57:3)	Lipid	adipose tissue;intestine;liver;pancreas	High;High;High;Medium
+HUBMet002813	TG(59:1)	Lipid	intestine;liver;adipose tissue;pancreas	High;High;Medium;Medium
+HUBMet002818	3-Pyridinol	Others	Unknown	Unknown
+HUBMet002821	cis-Cyclo[L-ala-L-Pro]	Peptide	Unknown	Unknown
+HUBMet002822	Isoleucylisoleucine	Peptide	Unknown	Unknown
+HUBMet002829	Phthalic acid	Xenobiotics	Unknown	Unknown
+HUBMet002831	Tartaric acid	Xenobiotics	Low Specificity	Low Specificity
+HUBMet002859	N(6)-acetyl-N(6)-hydroxy-L-lysine	Amino Acid	Unknown	Unknown
+HUBMet002867	lanthionine ketimine	Amino Acid	Unknown	Unknown
+HUBMet002869	l-2-amino-3-oxobutanoic acid	Amino Acid	Low Specificity	Low Specificity
+HUBMet002872	homocystine	Amino Acid	Unknown	Unknown
+HUBMet002885	4-hydroxy-3-methoxyphenylglycol	Amino Acid	Low Specificity	Low Specificity
+HUBMet002897	1-carboxyethylhistidine	Amino Acid	Unknown	Unknown
+HUBMet002898	1-aminocyclopropanecarboxylic acid	Amino Acid	Unknown	Unknown
+HUBMet002899	1-aminocyclohexanecarboxylic acid	Amino Acid	Unknown	Unknown
+HUBMet002910	Phosphoribosyl pyrophosphate	Carbohydrate	Low Specificity	Low Specificity
+HUBMet002916	glucuronolactone	Carbohydrate	liver	High
+HUBMet002960	TG(18:0/24:0/o-18:0)	Lipid	adipose tissue;intestine;liver;pancreas	High;High;High;Medium
+HUBMet002966	TG(17:0/18:2(9z,12z)/22:3(10z,13z,16z))	Lipid	Unknown	Unknown
+HUBMet002970	TG(15:0/22:3(10z,13z,16z)/22:5(7z,10z,13z,16z,19z))	Lipid	Unknown	Unknown
+HUBMet002977	Tetradecenoic acid	Lipid	Unknown	Unknown
+HUBMet002978	Tetracosenoic acid	Lipid	Unknown	Unknown
+HUBMet002982	Taurohyodeoxycholic acid	Lipid	liver	Low
+HUBMet002983	TAG(60:11)	Lipid	adipose tissue;liver;breast;intestine;pancreas	High;High;Medium;Medium;Medium
+HUBMet002999	SM(d20:1/22:4)	Lipid	Unknown	Unknown
+HUBMet003009	SM(d18:0/18:1(11z))	Lipid	intestine;lymphoid tissue;liver	High;Medium;Low
+HUBMet003014	SM(d16:0/26:1)	Lipid	Unknown	Unknown
+HUBMet003015	SM(d16:0/22:3)	Lipid	Unknown	Unknown
+HUBMet003017	SM(d16:0/22:1)	Lipid	Unknown	Unknown
+HUBMet003028	SM(d16:0/15:1)	Lipid	Unknown	Unknown
+HUBMet003032	SM(20:0)	Lipid	Unknown	Unknown
+HUBMet003033	SM 33:1;2o	Lipid	Unknown	Unknown
+HUBMet003037	retinoate	Lipid	liver;intestine;kidney;urinary bladder;gallbladder;heart muscle;stomach	High;Medium;Medium;Medium;Low;Low;Low
+HUBMet003040	PS(O-18:0/20:3(8z,11z,14z))	Lipid	Unknown	Unknown
+HUBMet003044	PS(22:6(4z,7z,10z,13z,16z,19z)/24:1(15z))	Lipid	Unknown	Unknown
+HUBMet003050	PS(17:0/22:0)	Lipid	Unknown	Unknown
+HUBMet003054	PS(13:0/22:6(4z,7z,10z,13z,16z,19z))	Lipid	bone marrow;brain;intestine;lymphoid tissue;skeletal muscle	Medium;Medium;Medium;Medium;Medium
+HUBMet003057	Pov-pc	Lipid	Low Specificity	Low Specificity
+HUBMet003059	platelet-activating factor	Lipid	Unknown	Unknown
+HUBMet003071	perillic acid	Lipid	liver	Medium
+HUBMet003086	PE(DiMe(11,3)/DiMe(9,3))	Lipid	Unknown	Unknown
+HUBMet003099	PC(22:4(7z,10z,13z,16z)/22:6(4z,7z,10z,13z,16z,19z))	Lipid	skin;bone marrow;brain;gallbladder;intestine;liver;lymphoid tissue;skeletal muscle	High;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet003109	PC(19:0/20:4)	Lipid	Unknown	Unknown
+HUBMet003118	PC(17:1/18:2)	Lipid	Unknown	Unknown
+HUBMet003135	palmitoleoyl ethanolamide	Lipid	Unknown	Unknown
+HUBMet003146	Octacosaheptaenoic acid	Lipid	Unknown	Unknown
+HUBMet003169	LysoPA(0:0/22:1(13z))	Lipid	Low Specificity	Low Specificity
+HUBMet003185	LPC 18:3 sn-2	Lipid	Unknown	Unknown
+HUBMet003188	LPC 18:1 sn-2	Lipid	Unknown	Unknown
+HUBMet003193	linoleamide	Lipid	Unknown	Unknown
+HUBMet003196	L-alpha-lysophosphatidylcholine	Lipid	Unknown	Unknown
+HUBMet003211	heptadecanedioate (C17-DC)	Lipid	Unknown	Unknown
+HUBMet003218	HCer(18:0)	Lipid	Unknown	Unknown
+HUBMet003230	Gb3Cer	Lipid	Unknown	Unknown
+HUBMet003234	FAHFA 18:1_18:0	Lipid	Unknown	Unknown
+HUBMet003246	EtherPE 18:1e_20:5	Lipid	Unknown	Unknown
+HUBMet003252	erucamide	Lipid	Unknown	Unknown
+HUBMet003253	Eicosatetraenoic acid	Lipid	Low Specificity	Low Specificity
+HUBMet003265	DHAP(18:0e)	Lipid	Low Specificity	Low Specificity
+HUBMet003270	DG(17:2(9z,12z)/17:2(9z,12z)/0:0)	Lipid	Unknown	Unknown
+HUBMet003280	DAG(20:0/20:0)	Lipid	brain;skin;adipose tissue;bone marrow;breast;intestine;kidney;liver;lymphoid tissue;pituitary gland;retina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet003284	DAG(18:1/22:6)	Lipid	brain;skin;adipose tissue;bone marrow;breast;intestine;kidney;lymphoid tissue;pituitary gland;retina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet003286	DAG(18:1/22:4)	Lipid	brain;skin;adipose tissue;bone marrow;breast;intestine;kidney;lymphoid tissue;pituitary gland;retina	High;High;Medium;Medium;Medium;Medium;Medium;Medium;Medium;Medium
+HUBMet003298	DAG(12:0/18:1)	Lipid	Unknown	Unknown
+HUBMet003310	Cer(d15:2(4e,6e)/20:0(2OH))	Lipid	Unknown	Unknown
+HUBMet003317	Cer(20:0)	Lipid	Unknown	Unknown
+HUBMet003320	CE(12:0)	Lipid	Low Specificity	Low Specificity
+HUBMet003327	CE(22:4)	Lipid	Low Specificity	Low Specificity
+HUBMet003337	calcitroic acid	Lipid	Low Specificity	Low Specificity
+HUBMet003357	9(S)-HpOTrE	Lipid	Unknown	Unknown
+HUBMet003359	7-trans,9-cis-octadecadienoic acid	Lipid	Unknown	Unknown
+HUBMet003369	4,4'-diapophytofluene	Lipid	Unknown	Unknown
+HUBMet003373	3-methyladipoylcarnitine	Lipid	Unknown	Unknown
+HUBMet003398	20, 22-dihydrodigoxigenin	Lipid	Unknown	Unknown
+HUBMet003417	1-O-(2R-hydroxy-hexadecyl)-sn-glycerol	Lipid	Unknown	Unknown
+HUBMet003426	1-heptadecenoylglycerol (17:1)	Lipid	Unknown	Unknown
+HUBMet003427	1-heptadecanoyl-sn-glycero-3-phosphoethanolamine	Lipid	Unknown	Unknown
+HUBMet003430	1-docosapentaenoyl-GPE (22:5n3)	Lipid	Low Specificity	Low Specificity
+HUBMet003432	18-hydroxycortisol	Lipid	Unknown	Unknown
+HUBMet003434	16:3 Stigmasteryl ester	Lipid	Unknown	Unknown
+HUBMet003441	10-Nitrooleic acid	Lipid	Unknown	Unknown
+HUBMet003442	10-(boc-amino)decanoic acid	Lipid	Unknown	Unknown
+HUBMet003451	1-(14 or 15-methyl)palmitoyl-GPC (a17:0 or i17:0)	Lipid	Unknown	Unknown
+HUBMet003465	(2r)-2-[(4z,7z,10z,13z,16z,19z)-4,7,10,13,16,19-docosahexaenoyloxy]-3-[(6z,9z,12z)-6,9,12-octadecatrienoyloxy]propyl 2-(trimethylammonio)ethyl phosphate	Lipid	Unknown	Unknown
+HUBMet003477	(17z)-1alpha,25-dihydroxy-26,27-dimethyl-17,20,22,22,23,23-hexadehydrovitamin d3 / (17z)-1alpha,25-dihydroxy-26,27-dimethyl-17,20,22,22,23,23-hexadehydrocholecalciferol	Lipid	Unknown	Unknown
+HUBMet003482	UTP	Nucleotide	bone marrow;liver;lymphoid tissue;skeletal muscle;testis;tongue	High;Medium;Medium;Medium;Medium;Medium
+HUBMet003490	fluorouracil	Nucleotide	liver	High
+HUBMet003493	deoxyguanosine	Nucleotide	skeletal muscle	High
+HUBMet003498	Arabinosylhypoxanthine	Nucleotide	Unknown	Unknown
+HUBMet003501	Adenosine 3',5'-diphosphate	Nucleotide	brain;intestine;kidney;liver;ovary	High;Medium;Medium;Medium;Medium
+HUBMet003513	physovenine	Others	Unknown	Unknown
+HUBMet003518	N1,N1-dimethyl-4-[[4-(dimethylamino)phenyl](4-nitrophenyl)methyl]aniline	Others	Unknown	Unknown
+HUBMet003522	epinephrine	Others	adipose tissue;brain;liver	High;Medium;Medium
+HUBMet003546	tryptophylleucine	Peptide	Unknown	Unknown
+HUBMet003565	histidinyl-serine	Peptide	Unknown	Unknown
+HUBMet003575	Aspartyl-Cysteine	Peptide	Unknown	Unknown
+HUBMet003576	Asn-Pro-Pro-Pro	Peptide	Unknown	Unknown
+HUBMet003578	Ala-Pro-Gly-Pro	Peptide	Unknown	Unknown
+HUBMet003587	umbelliferone	Xenobiotics	liver	Low
+HUBMet003590	trimethadione	Xenobiotics	liver	Medium
+HUBMet003604	Thc carboxylic acid	Xenobiotics	Unknown	Unknown
+HUBMet003607	tetraacetylethylenediamine	Xenobiotics	Unknown	Unknown
+HUBMet003616	shikimate	Xenobiotics	Unknown	Unknown
+HUBMet003619	sertraline	Xenobiotics	liver	Medium
+HUBMet003627	Rhodamine 6GP	Xenobiotics	Unknown	Unknown
+HUBMet003631	Quercetin 3-(6''''-feruloylglucosyl)-(1->2)-galactosyl-(1->2)-glucoside	Xenobiotics	Unknown	Unknown
+HUBMet003638	polystyrene sulfonate	Xenobiotics	Unknown	Unknown
+HUBMet003645	phenolphthalein beta-d-glucuronide	Xenobiotics	Unknown	Unknown
+HUBMet003650	pentoxyverine	Xenobiotics	Unknown	Unknown
+HUBMet003662	ondansetron	Xenobiotics	liver	Medium
+HUBMet003693	Myxalamid A	Xenobiotics	Unknown	Unknown
+HUBMet003700	mono-N-Butyl phthalate	Xenobiotics	Unknown	Unknown
+HUBMet003702	mono-iso butyl phthalate	Xenobiotics	Unknown	Unknown
+HUBMet003714	methylgingerol	Xenobiotics	Unknown	Unknown
+HUBMet003720	methyl phenyl disulfide	Xenobiotics	Unknown	Unknown
+HUBMet003729	Mandelic acid	Xenobiotics	Unknown	Unknown
+HUBMet003732	leonurine	Xenobiotics	Unknown	Unknown
+HUBMet003743	Isoniazid pyruvate	Xenobiotics	Unknown	Unknown
+HUBMet003751	hydroquinone	Xenobiotics	liver	Medium
+HUBMet003777	ethyl paraben	Xenobiotics	Unknown	Unknown
+HUBMet003779	ethosuximide	Xenobiotics	liver	High
+HUBMet003783	erythrohydrobupropion	Xenobiotics	Unknown	Unknown
+HUBMet003786	emtricitabine	Xenobiotics	Low Specificity	Low Specificity
+HUBMet003804	didesmethylcitalopram	Xenobiotics	Low Specificity	Low Specificity
+HUBMet003812	cyclo(phenylalanyl-prolyl)	Xenobiotics	Unknown	Unknown
+HUBMet003828	cefazolin	Xenobiotics	kidney	Medium
+HUBMet003837	bis(methylbenzylidene)sorbitol	Xenobiotics	Unknown	Unknown
+HUBMet003841	benzyl cyanide	Xenobiotics	Unknown	Unknown
+HUBMet003845	bendroflumethiazide	Xenobiotics	intestine;kidney	High;Low
+HUBMet003856	anhalamine	Xenobiotics	Unknown	Unknown
+HUBMet003872	6-(2-carboxyethyl)-7-hydroxy-2,2-dimethyl-4-chromanone glucoside	Xenobiotics	Unknown	Unknown
+HUBMet003895	4,4'-dioctyldiphenylamine	Xenobiotics	Unknown	Unknown
+HUBMet003897	3-s-cysteinyl-2-methylpropanoate	Xenobiotics	Unknown	Unknown
+HUBMet003905	3-[(2-methyl-3-furanyl)thio]-4-heptanone	Xenobiotics	Unknown	Unknown
+HUBMet003910	3,4-dehydrothiomorpholine-3-carboxylic acid	Xenobiotics	Unknown	Unknown
+HUBMet003911	3-(3,4,5-Trimethoxyphenyl)propanoic acid	Xenobiotics	Unknown	Unknown
+HUBMet003914	2-methoxy-4-(3-oxobutyl)phenyl.n,n-dimethylcarbamate	Xenobiotics	Unknown	Unknown
+HUBMet003922	2-aminoethyl phosphonate	Xenobiotics	Low Specificity	Low Specificity
+HUBMet003925	2,5-dihydroxybenzaldehyde	Xenobiotics	Low Specificity	Low Specificity
+HUBMet003929	2,3-dimethoxy-5-methyl-6-(3-methyl-2-buten-1-yl)-1,4-benzenediol	Xenobiotics	heart muscle;skeletal muscle;tongue	Medium;Medium;Medium
+HUBMet003937	1-bromo-3-iodoacetone	Xenobiotics	Unknown	Unknown
+HUBMet003940	1,6-dihydroxy-3-methoxy-10-methyl-9(10h)-acridinone	Xenobiotics	Unknown	Unknown
+HUBMet003946	(e)-p-Coumaric acid	Xenobiotics	intestine	Low
+HUBMet003950	(-)-Epicatechin sulfate	Xenobiotics	Unknown	Unknown
