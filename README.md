@@ -1,9 +1,7 @@
 # HUBMet
 Datasets and code of HUBMet
 
-# Website
-
-https://hubmet.app.bio-it.tech/home
+Website: https://hubmet.app.bio-it.tech/home
 
 ## License
 
