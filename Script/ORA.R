@@ -11,17 +11,9 @@ library(data.table)
 dir.create("./Output/M1_ORA", recursive = TRUE, showWarnings = FALSE)
 
 
-HBM_HMDB_metabolite_ID_fullList <- readRDS("./Data/HBM_HMDB_metabolite_ID_fullList_250827.RDS")
-HUBMet_annotation <- readRDS("./Data/HUBMet_annotation_250827.RDS") 
-HUBMet_term <- readRDS("./Data/HUBMet_term_1028.RDS")  
-smpdb_term_anno_new_MSEA <- read_rds("./Data/smpdb_term_anno_new_MSEA_0429.RDS")
-kegg_term_anno_new <- read.table("./Data/kegg_term_anno_new_0409.txt", sep = "\t", header = T)
-humanGEM_term_new <- read_rds("./Data/humanGEM_term_new_0429.RDS")
-reactome_term_anno_new <- read.table("./Data/reactome_term_anno_new.txt", sep = "\t", header = T)
-disease_term_new <- read.table("./Data/disease_term_new.txt", sep = "\t", header = T)
-superclass_term_new <- rio::import("./Data/superclass_term_new.txt")
-class_term_new <- rio::import("./Data/class_term_new.txt")
-subclass_term_new <- rio::import("./Data/subclass_term_new.txt")
+HBM_HMDB_metabolite_ID_fullList <- readRDS("./Data/HBM_HMDB_metabolite_ID_fullList.RDS")
+HUBMet_annotation <- readRDS("./Data/HUBMet_annotation.RDS") 
+HUBMet_term <- readRDS("./Data/HUBMet_term.RDS")  
 
 
 
@@ -206,97 +198,6 @@ HUBMet_enrich <- function(HBM_list, termclass = "Class" ,method = "fisher", adjp
 }
 
 
-### ---------------- other public database ----------------------------------
-# supported databases:  smpdb kegg humanGEM REACTOME disease class subclass superclass
-
-
-##  --------------- for public database enrichment analysis  -----------
-
-enrich_rest <- function(res, adjp_method){
-   
-  res$match_N <- as.integer(res$match_N)  
-  res <- res[which(res$match_N != 0),]
-  
-  n_met_background <- length(unique(strsplit(paste(res$HMDB.ID, collapse = ";"), split = ";")[[1]]))
-  
-  for(col in c("pvalue","N_met","match_N","MetaboliteRatio" )){
-    res[,col] <- as.numeric(res[,col])
-  }
-  res <- res[order(res$pvalue, decreasing = F),]
-  res$BgRatio <- res$N_met/n_met_background
-  res$FoldEnrichment <- res$MetaboliteRatio/res$BgRatio
-  res$EnrichmentFactor <- (res$match_N/res$N_met)/(length(unique( 
-    strsplit(paste(res$match, collapse = ";"), split = ";")[[1]] ))/n_met_background)
-  res$p.adjust <- p.adjust(res$pvalue, method = adjp_method  )
-  return(res)
-}
-
-
-public_enrich <- function(hmdb_list, database = "smpdb",
-                          method = "fisher", adjp_method = "BH", 
-                          adjustBackground = "blood", background = NA){  
-  
-  
-  # essential data: all the dataset from public database
-  # Output: one result table in the folder "Output/M1_ORA/" 
-  
-  hmdb_list <- unique(na.omit(hmdb_list[!(hmdb_list %in% c("","NA"))])) # make sure non-meaning ID will not be included
-  
-  
-  if(database == "smpdb"){ 
-    res <- smpdb_term_anno_new_MSEA   
-  }else if(database == "kegg"){
-    res <- kegg_term_anno_new
-  }else if(database == "humanGEM"){
-    res <- humanGEM_term_new
-  }else if(database == "reactome"){
-    res <- reactome_term_anno_new
-  }else if(database == "disease"){
-    res <- disease_term_new
-  }else if(database == "superclass"){
-    res <- superclass_term_new
-  }else if(database == "class"){
-    res <- class_term_new
-  }else if(database == "subclass"){
-    res <- subclass_term_new
-  }
-  
-  # background adjustment
-  if(adjustBackground  %in% c("custom","blood")){
-    if(adjustBackground == "blood"){
-      background <- unique(HBM_HMDB_metabolite_ID_fullList[which(!is.na(HBM_HMDB_metabolite_ID_fullList$HBM_ID)),]$metID_v2) 
-    }   
-    res_backup <- res
-    background <- unique(na.omit(union(hmdb_list, 
-                                       na.omit(background[!(background %in% c("","NA"))]))))
-    res <- background_adjust(res, background)
-    if(nrow(res) == 0){
-      print("No term has at least 5 metabolites after background adjustment!")
-      print("Perform analysis without background adjustment.")
-      res <- res_backup
-      rm(res_backup)
-    }
-  }
-  
-   
-  n_met_background <- c(hmdb_list, background, strsplit(paste(res$HMDB.ID,collapse = ";"),";")[[1]])
-  n_met_background <- length(unique(na.omit(n_met_background[!(n_met_background %in% c("","NA"))])))
-  
-  
-  if(method == "fisher"){
-    res[,c("match_N","match","pvalue","MetaboliteRatio")] <- t(data.frame(lapply(res$HMDB.ID, fisher_enrich, 
-                                                                                 met_id = hmdb_list, n_met_background )))
-  }
-  
-  if(method == "binomial"){
-    res[,c("match_N","match","pvalue","MetaboliteRatio")] <- t(data.frame(lapply(res$HMDB.ID, binomial_enrich, 
-                                                                                 met_id = hmdb_list, n_met_background)))
-  }
-  
-  res <- enrich_rest(res, adjp_method)
-  table_export(res, database ) 
-  return(res)
-}
 
 
 # ------------- Test ------------------
@@ -307,11 +208,10 @@ res_ora1 <- HUBMet_enrich(HBM_list = unique(na.omit(testda$metID)),
                          termclass = "Pathway", 
                          adjustBackground = "blood")
 
+res_ora2 <- HUBMet_enrich(HBM_list = unique(na.omit(testda$metID)),
+                          termclass = "Class", 
+                          adjustBackground = "blood")
 
-
-res_ora2 <- public_enrich(hmdb_list = unique(na.omit(testda$metID_v2)),
-                         database = "smpdb", 
-                         adjustBackground = "blood")
 
 
 # Visualization
@@ -319,5 +219,4 @@ res_ora2 <- public_enrich(hmdb_list = unique(na.omit(testda$metID_v2)),
 source("./Script/visualization.R") # functions for visualization
 
 dotplot_enrich(res_ora1, database = "Pathway")
-dotplot_enrich(res_ora2, database = "smpdb",smpdb_class = "Metabolic")
-
+ 
