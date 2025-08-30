@@ -1,3 +1,5 @@
+# Functional module 2 MSEA
+
 import os
 import numpy as np
 import pandas as pd
@@ -302,3 +304,4 @@ if __name__ == "__main__":
         minutes, seconds = divmod(rem, 60)
         formatted_time = "{:0>2}:{:0>2}:{:06.3f}".format(int(hours), int(minutes), seconds)
         print(f"Elapsed time: {formatted_time}")
+
