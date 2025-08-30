@@ -8,18 +8,9 @@ import pyreadr
 os.makedirs("../Output/M2_MSEA", exist_ok=True)
 
 # load data
-db = pyreadr.read_r("../Data/HUBMet_term_1028.RDS")
+db = pyreadr.read_r("../Data/HUBMet_term.RDS")
 HUBMet_term = db[None]
-db = pyreadr.read_r("../Data/smpdb_term_anno_new_MSEA_0429.RDS")
-smpdb_term_anno_new_MSEA = db[None]
-kegg_term_anno_new = pd.read_csv('../Data/kegg_term_anno_new_0409.txt', delimiter='\t')
-db = pyreadr.read_r("../Data/humanGEM_term_new_0429.RDS")
-humanGEM_term_new = db[None]
-reactome_term_anno_new = pd.read_csv('../Data/reactome_term_anno_new.txt', delimiter='\t')
-disease_term_new = pd.read_csv('../Data/disease_term_new.txt', delimiter='\t')
-
-
-  
+ 
 
 def table_export(da, database):
     if database == "smpdb":
@@ -311,29 +302,3 @@ if __name__ == "__main__":
         minutes, seconds = divmod(rem, 60)
         formatted_time = "{:0>2}:{:0>2}:{:06.3f}".format(int(hours), int(minutes), seconds)
         print(f"Elapsed time: {formatted_time}")
-
-
- 
-# test for public database
-testda_HBM = pd.read_csv('../testda/testda_public_0709.txt', delimiter='\t')
-
-
-for db in ["smpdb","kegg","disease","reactome","humanGEM"]:
-    if __name__ == "__main__":
-        start_time = time.time()
-        testda_msea_hbm = msea_database(hmdb_list=testda_HBM['metID_v2'],
-                                        hmdb_list_value=testda_HBM['fc'],
-                                        database=db,
-                                        min_met=10, max_met=1000)
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        hours, rem = divmod(elapsed_time, 3600)
-        minutes, seconds = divmod(rem, 60)
-        formatted_time = "{:0>2}:{:0>2}:{:06.3f}".format(int(hours), int(minutes), seconds)
-        print(f"Elapsed time: {formatted_time}")
-
-
- 
-
-
-
