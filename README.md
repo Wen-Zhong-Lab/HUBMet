@@ -1,5 +1,5 @@
 # HUBMet
-Datasets and scripts of the Human Blood Metabolite Database and Analytical Platform (**HUBMet**): https://hubmet.app.bio-it.tech/home
+Datasets and scripts of **HUBMet (Human Blood Metabolite Database and Analytical Platform)**: https://hubmet.app.bio-it.tech/home
 
 
 ## License
