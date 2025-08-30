@@ -1,7 +1,5 @@
 # HUBMet
-Datasets and code of HUBMet
-
-Website: https://hubmet.app.bio-it.tech/home
+Datasets and code of Human Blood Metabolite Database and Analytical Platform (HUBMet): https://hubmet.app.bio-it.tech/home
 
 ## License
 
