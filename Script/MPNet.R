@@ -1,4 +1,4 @@
-# Module 4: MPNet
+# Functional module 4: MPNet
 
 # -------------------Load data and library -------------
 
@@ -574,5 +574,6 @@ metabolites_test <- rio::import("./testda/testData2.txt")$x
 
 res <- ProMetNetwork(proteins = proteins_test, metabolites = metabolites_test, 
                    protein_type = "Uniprot",job_id = "test42", timen = 0)
+
 
 
