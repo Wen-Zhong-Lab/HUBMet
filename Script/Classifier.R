@@ -8,7 +8,7 @@ library(tidyverse)
 dir.create("./Output/M0_Classifier", recursive = TRUE, showWarnings = FALSE)
 
 
-HUBMet_annotation <- readRDS("./Data/HUBMet_annotation_250827.RDS")  
+HUBMet_annotation <- readRDS("./Data/HUBMet_annotation.RDS")  
 
 
 # -------------------- Main function -----------------------
@@ -33,11 +33,11 @@ HUBMet_basic <- function(HBM_list,job_id="job_id"){
   }
   
   
-  temp_need <- temp #[,c(1:3,7:10,5:6)]
+  temp_need <- temp  
   temp_need[is.na(temp_need)] <- ""
   
   
-  colnames(temp_need)[c(1,3,4,5)] <-  #[c(1,3,8,9)] <- 
+  colnames(temp_need)[c(1,3,4,5)] <-  
     c("HUBMet ID","Category", "Tissue.Relevance","Tissue.Relevance.Reliability") 
   # export table
   write.table(temp_need,
