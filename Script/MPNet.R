@@ -13,8 +13,8 @@ HUBMet_annotation <- readRDS("./Data/HUBMet_annotation.RDS")
 pro_met_ass_anno <- readRDS("./Data/pro_met_ass_anno.RDS")
 pro_met_ass <- pro_met_ass_anno[,c("PID","HBM_ID","Index","Evidence")]
 proID_ref_annotation <- readRDS("./Data/proID_ref_annotation.RDS") 
-allnode <- read_rds("./Data/allnode.RDS")  
- 
+
+
 # ------------- Main function ------------------------------
 
 ProMetNetwork <- function(proteins = NA, metabolites = NA, 
@@ -163,7 +163,7 @@ ProMetNetwork <- function(proteins = NA, metabolites = NA,
   node[which(node$name == "HBM00001336" ),"Name"] <- "AMP"
   
   
-  node <- dplyr::left_join(node, unique(na.omit(proID_ref_annotation[,c(1,6,7)])), by=c("name"="PID"))
+  node <- dplyr::left_join(node, unique(na.omit(proID_ref_annotation[,c("PID","Label","Function")])), by=c("name"="PID"))
   node[which(is.na(node$Name)),"Name"] <- node[which(is.na(node$Name)),"Label"]
   node[which(is.na(node$Category)),"Category"] <- node[which(is.na(node$Category)),"Function"]
   node <- unique(node[,1:8])
@@ -574,6 +574,5 @@ metabolites_test <- rio::import("./testda/testData2.txt")$x
 
 res <- ProMetNetwork(proteins = proteins_test, metabolites = metabolites_test, 
                    protein_type = "Uniprot",job_id = "test42", timen = 0)
-
 
 
