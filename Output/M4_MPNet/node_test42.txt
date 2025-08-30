@@ -1,0 +1,281 @@
+ID	Type	Name	Protein.Input	Class.Function	Degree	Closeness	Betweenness	Community
+MP002432	protein	PLA2G4A	P47712	Fatty acid biosynthesis;Fatty acid metabolism;Glycerol metabolism;Leukotriene biosynthesis;Lipid biosynthesis;Lipid degradation;Lipid metabolism;Phospholipid degradation;Phospholipid metabolism;Prostaglandin biosynthesis;Prostaglandin metabolism	88	0.00102986611740474	18397.8532245532	7
+MP001987	protein	IL1RN	P18510	sugar binding	29	0.00100908173562059	9260.56896303295	4
+MP002030	protein	DDC	P20711	Catecholamine biosynthesis;Drug response	17	0.000807102502017756	3852.53101827653	5
+MP002035	protein	CYP3A5	P20815	Lipid metabolism;Steroid metabolism;Small molecule metabolism;Xenobiotic metabolism	17	0.000638162093171666	5536.61063814565	6
+MP001498	protein	AK1	P00568	Disease;Drug Action;Drug metabolism;Nucleotide metabolism	16	0.00116144018583043	18149.9602357058	8
+MP004294	protein	NT5M	Q9NPB1	Nucleotide metabolism;DNA replication	16	0.000800640512409928	3165.76761580639	1
+MP002598	protein	SUCLG1	P53597	Tricarboxylic acid cycle;Small molecule metabolism	9	0.000796812749003984	2192.09323326262	3
+HUBMet001336	metabolite	Adenosine monophosphate (AMP)		Nucleotide	8	0.000963391136801541	4983.59181209813	1
+MP001660	protein	PYGL	P06737	Carbohydrate metabolism;Glycogen metabolism;Small molecule metabolism;Glucose metabolism	8	0.000831255195344971	2079.82060067842	1
+MP002282	protein	PTGS2	P35354	Fatty acid biosynthesis;Fatty acid metabolism;Lipid biosynthesis;Lipid metabolism;Prostaglandin biosynthesis;Prostaglandin metabolism;Xenobiotic metabolism;Drug response;Inflammatory response;Angiogenesis	8	0.000488519785051295	1806	9
+HUBMet002633	metabolite	Adenosine triphosphate (ATP)		Energy	7	0.000934579439252336	2752.82567467954	3
+MP001919	protein	AREG	P15514	Cytokine;Growth factor	7	0.000846740050804403	2699.07213862711	2
+MP001890	protein	AKR1A1	P14550	Lipid metabolism;Glucose metabolism	6	0.000841042893187553	8754.50699057701	2
+HUBMet000328	metabolite	fumarate		Energy	5	0.00099009900990099	10081.1439079989	2
+MP004552	protein	ACSL6	Q9UKU0	Fatty acid metabolism;Lipid metabolism	5	0.0008424599831508	1598.76906367551	3
+HUBMet002937	metabolite	NADP+		Cofactors and Vitamins	5	0.000727802037845706	7794.98318105321	6
+HUBMet002945	metabolite	Coenzyme A		Cofactors and Vitamins	5	0.000704225352112676	1087.12667055167	3
+HUBMet001350	metabolite	Arachidonic acid		Lipid	5	0.000555555555555556	2799.38095238095	6
+MP001615	protein	ARG1	P05089	Adaptive immunity;Arginine metabolism;Immunity;Innate immunity;Urea cycle;Drug response	4	0.166666666666667	7.5	10
+MP001068	protein	TK2	O00142	DNA synthesis;DNA replication;Nucleotide metabolism	4	0.000769822940723634	387.595317410487	3
+MP002325	protein	POLR2I	P36954	Transcription	4	0.000759301442672741	478.979198223591	3
+MP001405	protein	INMT	O95050	Detoxification	4	0.000754716981132075	1371.37664236349	5
+HUBMet002277	metabolite	Pyrophosphate		Others	4	0.000698324022346369	218.55881164348	3
+HUBMet003488	metabolite	guanosine 5'-triphosphate		Nucleotide	4	0.000668449197860963	369.591563458153	3
+MP002397	protein	CTSO	P43234	Hydrolase;Protease;Thiol protease	4	0.000665335994677312	262.5	4
+HUBMet003497	metabolite	CGMP		Nucleotide	4	0.000658761528326746	332.982686281428	1
+MP001393	protein	ALDH1A2	O94788	Lipid metabolism	4	0.000505305709954523	454.288888888889	6
+MP001932	protein	ALOX15	P16050	Fatty acid metabolism;Lipid metabolism;Inflammatory response	4	0.00048661800486618	273.833333333333	6
+HUBMet000268	metabolite	Serotonin		Amino Acid	3	0.000929368029739777	3805.50142155746	5
+HUBMet001025	metabolite	adenosine 5'-diphosphate (ADP)		Nucleotide	3	0.000920810313075506	1180.07542661991	3
+HUBMet000094	metabolite	palmitate (16:0)		Lipid	3	0.000865051903114187	973.597301132182	3
+MP002218	protein	ADSL	P30566	Purine biosynthesis	3	0.0008424599831508	989.9585945138	2
+MP002973	protein	PDE7A	Q13946	3',5'-cyclic AMP degradation;Morphine addiction;Nucleotide metabolism;Signal transduction	3	0.000777000777000777	393.292283866654	1
+MP004283	protein	PDE7B	Q9NP56	3',5'-cyclic AMP degradation;Morphine addiction;Nucleotide metabolism;Signal transduction	3	0.000777000777000777	393.292283866654	1
+HUBMet000039	metabolite	Phosphate		Energy	3	0.000718390804597701	401.290095035683	1
+MP003764	protein	GANC	Q8TET4	Carbohydrate metabolism	3	0.000665335994677312	521	4
+MP004256	protein	CYP4F11	Q9HBI6	Fatty acid metabolism;Lipid metabolism;Small molecule metabolism;Xenobiotic metabolism;Inflammatory response	3	0.000622277535780958	1612.90476190476	6
+MP002354	protein	MDH1	P40925	Tricarboxylic acid cycle;Small molecule metabolism;Carbohydrate metabolism;Gluconeogenesis	3	0.000619195046439629	1013.15967608965	2
+MP002261	protein	GUCY1A2	P33402	cGMP biosynthesis;Signal transduction;Blood coagulation	3	0.000601322910402886	67.3596375846376	3
+HUBMet001818	metabolite	nicotinamide adenine dinucleotide (NAD+)		Cofactors and Vitamins	3	0.000555555555555556	647.493009422986	2
+MP001252	protein	LIAS	O43766	Lipoic acid metabolism;protein lipoylation;Inflammatory response	3	0.000544365813826892	521	5
+MP002776	protein	CACNA1D	Q01668	Calcium transport;Ion transport;Transport	2	0.5	1	11
+HUBMet001689	metabolite	L-Arginine		Amino Acid	2	0.125	1.5	10
+HUBMet000007	metabolite	arginine		Amino Acid	2	0.125	1.5	10
+MP002577	protein	SLC7A2	P52569	Amino-acid transport;Transport	2	0.1	0.5	10
+HUBMet000195	metabolite	1-stearoyl-GPC (18:0)		Lipid	2	0.00105708245243129	5115.3904900655	8
+HUBMet001737	metabolite	LysoPC(20:1)		Lipid	2	0.00105708245243129	5115.3904900655	8
+HUBMet001454	metabolite	DAG(34:2)		Lipid	2	0.00094876660341556	924.950312432665	8
+HUBMet001060	metabolite	DG(36:4)		Lipid	2	0.00094876660341556	924.950312432665	8
+HUBMet001141	metabolite	PE(34:2)		Lipid	2	0.000925925925925926	1450.6415057165	4
+HUBMet001142	metabolite	PE(36:4)		Lipid	2	0.000925925925925926	1450.6415057165	4
+HUBMet002146	metabolite	PE(38:4)		Lipid	2	0.000925925925925926	1450.6415057165	4
+HUBMet000377	metabolite	Adenosine		Nucleotide	2	0.000915750915750916	1153.75272873555	8
+HUBMet000238	metabolite	Hypotaurine		Amino Acid	2	0.000910746812386157	611.768907543851	2
+HUBMet001201	metabolite	1-Methyladenosine		Nucleotide	2	0.000878734622144112	1280.02533242036	2
+HUBMet000965	metabolite	Uric acid		Nucleotide	2	0.000853242320819113	1010.08308609748	1
+HUBMet000143	metabolite	N-Acetylthreonine		Amino Acid	2	0.000829187396351575	1578.45623908256	5
+HUBMet000658	metabolite	1-stearyl-GPC (o-18:0)		Lipid	2	0.000825082508250825	178.421536796537	3
+MP004432	protein	PLA2G2E	Q9NZK7	Inflammatory response;Lipid metabolism;Phospholipid metabolism	2	0.000803212851405623	111.008405483405	3
+HUBMet000021	metabolite	glucose		Carbohydrate	2	0.000802568218298555	777	4
+HUBMet000012	metabolite	asparagine		Amino Acid	2	0.000801282051282051	172	4
+HUBMet000010	metabolite	glutamate		Amino Acid	2	0.000801282051282051	172	4
+HUBMet001706	metabolite	L-Serine		Amino Acid	2	0.000801282051282051	172	4
+MP003351	protein	FAHD1	Q6P587	Amino acid metabolism	2	0.000788022064617809	261	2
+MP001013	protein	TPK1	F5GZG6	Cofactors and vitamins metabolism;thiamine diphosphate biosynthesis	2	0.000771010023130301	261	1
+MP000634	protein	PAPOLB	A4D1Z6	mRNA processing	2	0.000755857898715042	52.7389969361937	3
+HUBMet001765	metabolite	Malic acid		Others	2	0.000701262272089762	1177.96919989918	2
+HUBMet000736	metabolite	Inosine 5'-monophosphate (IMP)		Nucleotide	2	0.000698324022346369	84.8573916279799	1
+HUBMet002596	metabolite	glucose-1-phosphate		Carbohydrate	2	0.000684931506849315	520	1
+HUBMet002834	metabolite	tryptamine		Amino Acid	2	0.000672043010752688	93.95	5
+HUBMet003492	metabolite	Dump		Nucleotide	2	0.000669344042838019	51.1948717948718	3
+HUBMet001171	metabolite	Succinic acid		Energy	2	0.000660501981505945	261	3
+HUBMet001440	metabolite	Cyclic AMP		Nucleotide	2	0.000646830530401035	0.333333333333333	1
+HUBMet001333	metabolite	acylcarnitine		Amino Acid	2	0.000632911392405063	777	5
+MP002998	protein	SQLE	Q14534	Lipid metabolism	2	0.000616903146206046	325.158257193268	6
+MP001983	protein	NAT1	P18440	Biosynthesis of other secondary metabolites;Chemical carcinogenesis - DNA adducts;Drug metabolism;Small molecule metabolism;Xenobiotic metabolism	2	0.000595592614651578	130	3
+MP001788	protein	DLAT	P10515	Carbohydrate metabolism;Glucose metabolism;Tricarboxylic acid cycle;Glycolysis	2	0.000595592614651578	130	3
+MP003356	protein	PGM2L1	Q6PCE3	Carbohydrate metabolism;Glucose metabolism	2	0.00058173356602676	261	1
+HUBMet003037	metabolite	retinoate		Lipid	2	0.000551876379690949	290.350320685332	6
+HUBMet001724	metabolite	Linoleic acid		Lipid	2	0.000548245614035088	126.47619047619	6
+HUBMet001723	metabolite	linoleate		Lipid	2	0.000548245614035088	126.47619047619	6
+HUBMet000871	metabolite	flavin adenine dinucleotide		Cofactors and Vitamins	2	0.000535905680600214	101.636034971046	6
+HUBMet002947	metabolite	Acetyl CoA		Cofactors and Vitamins	2	0.000515995872033024	0.5	3
+MP002890	protein	FABP9	Q0Z7S8	Transport	2	0.000485672656629432	261	6
+MP001747	protein	FBP1	P09467	Carbohydrate metabolism;Gluconeogenesis;Small molecule metabolism;Drug response;Signal transduction;Glycolysis	1	1	0	15
+MP001247	protein	GSTZ1	O43708	Phenylalanine catabolism;Tyrosine catabolism;Glutathione metabolism	1	1	0	14
+MP003676	protein	GALNT6	Q8NCL4	Mucin type O-glycan biosynthesis;protein glycosylation;Post-translational protein modification	1	1	0	12
+MP003634	protein	GBGT1	Q8N5D6	Transferase;Glycosyltransferase	1	1	0	13
+HUBMet002595	metabolite	fructose-6-phosphate		Carbohydrate	1	1	0	15
+HUBMet001630	metabolite	glutathione, reduced (GSH)		Amino Acid	1	1	0	14
+HUBMet002574	metabolite	uridine diphosphate		Nucleotide	1	1	0	12
+HUBMet002599	metabolite	uridine diphosphate galactose		Nucleotide	1	1	0	13
+HUBMet002582	metabolite	Verapamil		Xenobiotics	1	0.333333333333333	0	11
+HUBMet001823	metabolite	Nifedipine		Xenobiotics	1	0.333333333333333	0	11
+HUBMet000004	metabolite	Ornithine		Amino Acid	1	0.1	0	10
+HUBMet000024	metabolite	Urea		Amino Acid	1	0.1	0	10
+HUBMet000040	metabolite	Taurine		Amino Acid	1	0.00089126559714795	0	8
+HUBMet001817	metabolite	Niacinamide		Cofactors and Vitamins	1	0.00089126559714795	0	8
+HUBMet000223	metabolite	choline phosphate		Lipid	1	0.00089126559714795	0	8
+HUBMet001319	metabolite	Acetoacetic acid		Others	1	0.00089126559714795	0	8
+HUBMet001162	metabolite	Pyroglutamic acid		Amino Acid	1	0.00089126559714795	0	8
+HUBMet000301	metabolite	1,2-dipalmitoyl-GPC (16:0/16:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet002040	metabolite	PC(32:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet002055	metabolite	PC(36:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet002037	metabolite	PC(30:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet001136	metabolite	PC(32:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000645	metabolite	1-myristoyl-2-linoleoyl-GPC (14:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet002045	metabolite	PC(34:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet001906	metabolite	PC(34:3)		Lipid	1	0.000811688311688312	0	7
+HUBMet000556	metabolite	1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet002054	metabolite	PC(36:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet002043	metabolite	PC(33:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet002183	metabolite	PC (15:0/18:1, 17:0/16:1, 16:0/17:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet001219	metabolite	1-pentadecanoyl-2-oleoyl-GPC (15:0/18:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000650	metabolite	1-pentadecanoyl-2-linoleoyl-GPC (15:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet001217	metabolite	1-pentadecanoyl-2-arachidonoyl-GPC (15:0/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet002052	metabolite	PC(35:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet000296	metabolite	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000185	metabolite	1-palmitoyl-2-oleoyl-GPC (16:0/18:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000183	metabolite	1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000790	metabolite	1-palmitoyl-2-meadoyl-GPC (16:0/20:3n9)		Lipid	1	0.000811688311688312	0	7
+HUBMet001937	metabolite	PC aa c36:3		Lipid	1	0.000811688311688312	0	7
+HUBMet000789	metabolite	1-palmitoyl-2-adrenoyl-GPC (16:0/22:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet001910	metabolite	PC(38:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet001911	metabolite	PC(38:5)		Lipid	1	0.000811688311688312	0	7
+HUBMet001912	metabolite	PC(38:6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000660	metabolite	1,2-distearoyl-GPC (18:0/18:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000194	metabolite	1-stearoyl-2-oleoyl-GPC (18:0/18:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000192	metabolite	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet002184	metabolite	PC (18:0/20:2, 20:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000656	metabolite	1-stearoyl-2-meadoyl-GPC (18:0/20:3n9)		Lipid	1	0.000811688311688312	0	7
+HUBMet000653	metabolite	1-stearoyl-2-dihomo-linolenoyl-GPC (18:0/20:3n3 or 6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000189	metabolite	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet001137	metabolite	PC(40:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet000655	metabolite	1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000654	metabolite	1-stearoyl-2-docosapentaenoyl-GPC (18:0/22:5n3)		Lipid	1	0.000811688311688312	0	7
+HUBMet001913	metabolite	PC(40:6)		Lipid	1	0.000811688311688312	0	7
+HUBMet001207	metabolite	1-oleoyl-2-docosapentaenoyl-GPC (18:1/22:5n3)		Lipid	1	0.000811688311688312	0	7
+HUBMet000788	metabolite	1-oleoyl-2-dihomo-linolenoyl-GPC (18:1/20:3)		Lipid	1	0.000811688311688312	0	7
+HUBMet000170	metabolite	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000651	metabolite	1-pentadecanoyl-GPC (15:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000297	metabolite	1-palmitoyl-GPC (16:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000630	metabolite	1-arachidoyl-GPC (20:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000633	metabolite	1-dihomo-linoleoyl-GPC (20:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet001200	metabolite	1-meadoyl-GPC (20:3n9)		Lipid	1	0.000811688311688312	0	7
+HUBMet000631	metabolite	1-dihomo-linolenoyl-GPC (20:3n3 or 6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000629	metabolite	1-adrenoyl-GPC (22:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet000638	metabolite	1-docosapentaenoyl-GPC (22:5n6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000637	metabolite	1-docosapentaenoyl-GPC (22:5n3)		Lipid	1	0.000811688311688312	0	7
+HUBMet001008	metabolite	2-stearoylglycerophosphocholine		Lipid	1	0.000811688311688312	0	7
+HUBMet000162	metabolite	1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (p-16:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000785	metabolite	1-(1-enyl-stearoyl)-2-linoleoyl-GPC (p-18:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet001367	metabolite	c38:6 pc plasmalogen		Lipid	1	0.000811688311688312	0	7
+HUBMet000331	metabolite	glycerophosphoethanolamine		Lipid	1	0.000811688311688312	0	7
+HUBMet001140	metabolite	PE(34:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet002129	metabolite	PE(36:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet002130	metabolite	PE(36:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet002131	metabolite	PE(36:3)		Lipid	1	0.000811688311688312	0	7
+HUBMet002134	metabolite	PE(38:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000186	metabolite	1-palmitoyl-2-oleoyl-GPE (16:0/18:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000988	metabolite	1-palmitoyl-2-dihomo-linolenoyl-GPE (16:0/20:3)		Lipid	1	0.000811688311688312	0	7
+HUBMet002682	metabolite	PE 38:6		Lipid	1	0.000811688311688312	0	7
+HUBMet002145	metabolite	PE(38:3)		Lipid	1	0.000811688311688312	0	7
+HUBMet000300	metabolite	1-stearoyl-2-oleoyl-GPE (18:0/18:1)		Lipid	1	0.000811688311688312	0	7
+HUBMet000299	metabolite	1-stearoyl-2-linoleoyl-GPE (18:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000190	metabolite	1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet002150	metabolite	PE(40:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet002137	metabolite	PE(40:6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000468	metabolite	1-oleoyl-2-linoleoyl-GPE (18:1/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet000787	metabolite	1-oleoyl-2-arachidonoyl-GPE (18:1/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet000659	metabolite	1,2-dilinoleoyl-GPE (18:2/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet002091	metabolite	PE(38:6)		Lipid	1	0.000811688311688312	0	7
+HUBMet000167	metabolite	1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (p-18:0/20:4)		Lipid	1	0.000811688311688312	0	7
+HUBMet000220	metabolite	arachidate (20:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000642	metabolite	1-margaroyl-GPC (17:0)		Lipid	1	0.000811688311688312	0	7
+HUBMet000925	metabolite	PC ae c34:0		Lipid	1	0.000811688311688312	0	7
+HUBMet000928	metabolite	PC ae c38:4		Lipid	1	0.000811688311688312	0	7
+HUBMet001979	metabolite	PC ae c38:5		Lipid	1	0.000811688311688312	0	7
+HUBMet001984	metabolite	PC ae c40:4		Lipid	1	0.000811688311688312	0	7
+HUBMet003107	metabolite	PC(20:0/18:2)		Lipid	1	0.000811688311688312	0	7
+HUBMet003094	metabolite	PE(16:0/22:5)		Lipid	1	0.000811688311688312	0	7
+HUBMet003409	metabolite	1-stearoyl-2-docosapentaenoyl-GPE (18:0/22:5n6)		Lipid	1	0.000811688311688312	0	7
+HUBMet003410	metabolite	1-stearoyl-2-docosapentaenoyl-GPE (18:0/22:5n3)		Lipid	1	0.000811688311688312	0	7
+HUBMet000677	metabolite	3-Amino-2-piperidone		Amino Acid	1	0.000798722044728434	0	4
+HUBMet000001	metabolite	Glycine		Amino Acid	1	0.000798722044728434	0	4
+HUBMet002279	metabolite	Quinolinic acid		Cofactors and Vitamins	1	0.000798722044728434	0	4
+HUBMet001453	metabolite	DAG(34:1)		Lipid	1	0.000798722044728434	0	4
+HUBMet000526	metabolite	N4-Acetylcytidine		Nucleotide	1	0.000798722044728434	0	4
+HUBMet001474	metabolite	DG(34:3)		Lipid	1	0.000798722044728434	0	4
+HUBMet000002	metabolite	kynurenine		Amino Acid	1	0.000798722044728434	0	4
+HUBMet000025	metabolite	Xanthine		Nucleotide	1	0.000798722044728434	0	4
+HUBMet002759	metabolite	LPC(18:2)		Lipid	1	0.000798722044728434	0	4
+HUBMet000023	metabolite	Pseudouridine		Nucleotide	1	0.000798722044728434	0	4
+HUBMet001075	metabolite	Gluconic acid		Carbohydrate	1	0.000798722044728434	0	4
+HUBMet000145	metabolite	N2,N2-Dimethylguanosine		Nucleotide	1	0.000798722044728434	0	4
+HUBMet001477	metabolite	DG(38:5)		Lipid	1	0.000798722044728434	0	4
+HUBMet000044	metabolite	7-Methylguanine		Nucleotide	1	0.000798722044728434	0	4
+HUBMet002747	metabolite	DG(36:3)		Lipid	1	0.000798722044728434	0	4
+HUBMet001363	metabolite	Bilirubin		Cofactors and Vitamins	1	0.000798722044728434	0	4
+MP000619	protein	PIK3C2B	A2RUF7	Lipid metabolism	1	0.000751314800901578	0	3
+HUBMet001750	metabolite	LysoPE 20:1		Lipid	1	0.000693481276005548	0	2
+HUBMet001696	metabolite	L-Glutamine		Amino Acid	1	0.000693481276005548	0	2
+HUBMet000800	metabolite	2-hydroxyglutaric acid		Lipid	1	0.000693481276005548	0	2
+HUBMet003499	metabolite	AICAR		Nucleotide	1	0.00069060773480663	0	2
+HUBMet000133	metabolite	glucuronate		Carbohydrate	1	0.000689655172413793	0	2
+HUBMet000017	metabolite	Glycerol		Lipid	1	0.000689655172413793	0	2
+HUBMet002915	metabolite	glyceraldehyde		Carbohydrate	1	0.000689655172413793	0	2
+HUBMet003781	metabolite	ethanol		Xenobiotics	1	0.000689655172413793	0	2
+HUBMet001624	metabolite	glucose-6-phosphate		Carbohydrate	1	0.000683060109289617	0	1
+HUBMet002282	metabolite	Riboflavin		Cofactors and Vitamins	1	0.000683060109289617	0	1
+HUBMet003484	metabolite	purine		Nucleotide	1	0.000683060109289617	0	1
+HUBMet001697	metabolite	L-Histidine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001082	metabolite	Histamine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet000005	metabolite	phenylalanine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001702	metabolite	L-Phenylalanine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001269	metabolite	3-hydroxykynurenine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001307	metabolite	5-hydroxytryptophan		Amino Acid	1	0.000666666666666667	0	5
+HUBMet000006	metabolite	tryptophan		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001708	metabolite	L-Tryptophan		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001495	metabolite	dihydroxyphenylalanine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet001709	metabolite	L-Tyrosine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet000036	metabolite	pantothenate		Cofactors and Vitamins	1	0.000666666666666667	0	5
+HUBMet003523	metabolite	dopamine		Others	1	0.000666666666666667	0	5
+HUBMet002839	metabolite	phenethylamine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet002833	metabolite	tyramine		Amino Acid	1	0.000666666666666667	0	5
+HUBMet000497	metabolite	Cytidine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet000387	metabolite	Guanosine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet000022	metabolite	Inosine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet002593	metabolite	beta-nicotinamide mononucleotide		Nucleotide	1	0.000662251655629139	0	1
+HUBMet002575	metabolite	Uridine 5'-monophosphate		Nucleotide	1	0.000662251655629139	0	1
+HUBMet000013	metabolite	Uridine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet000553	metabolite	Xanthosine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet003494	metabolite	deoxycytidine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet003493	metabolite	deoxyguanosine		Nucleotide	1	0.000662251655629139	0	1
+HUBMet003496	metabolite	cytidine monophosphate		Nucleotide	1	0.000662251655629139	0	1
+HUBMet003508	metabolite	2'-Deoxyguanosine 5'-monophosphate		Nucleotide	1	0.000662251655629139	0	1
+HUBMet001645	metabolite	Guanosine diphosphate		Nucleotide	1	0.000659630606860158	0	3
+HUBMet002993	metabolite	succinyl-CoA		Lipid	1	0.000659630606860158	0	3
+HUBMet003202	metabolite	itaconate		Lipid	1	0.000659630606860158	0	3
+HUBMet002278	metabolite	Pyruvic acid		Carbohydrate	1	0.00065359477124183	0	2
+HUBMet002558	metabolite	Thiamine		Cofactors and Vitamins	1	0.000641848523748395	0	1
+HUBMet000365	metabolite	2'-deoxyuridine		Nucleotide	1	0.000641025641025641	0	3
+HUBMet003482	metabolite	UTP		Nucleotide	1	0.000633713561470215	0	3
+HUBMet002289	metabolite	S-Adenosylhomocysteine		Amino Acid	1	0.000630517023959647	0	5
+MP003205	protein	PYCRL	Q53H96	Amino-acid biosynthesis;Proline biosynthesis	1	0.000611620795107034	0	6
+MP001171	protein	GNPAT	O15228	Lipid metabolism;Peroxisome;Drug response	1	0.000594883997620464	0	3
+MP002944	protein	ROCK1	Q13464	Apoptosis	1	0.000569151963574274	0	3
+HUBMet001445	metabolite	D-Glucose		Carbohydrate	1	0.000566893424036281	0	4
+HUBMet002601	metabolite	galactose		Carbohydrate	1	0.000566893424036281	0	4
+HUBMet001695	metabolite	L-Glutamic acid		Amino Acid	1	0.000566893424036281	0	4
+MP000772	protein	RPS27A	B2RDW1	sugar binding	1	0.000563380281690141	0	3
+MP002767	protein	PDE1B	Q01064	Morphine addiction;Nucleotide metabolism;Signaling;Blood coagulation;Behavior	1	0.000562113546936481	0	1
+HUBMet001349	metabolite	Androstenedione		Lipid	1	0.000547045951859956	0	6
+HUBMet001517	metabolite	Estrone		Lipid	1	0.000547045951859956	0	6
+HUBMet001515	metabolite	Estradiol		Lipid	1	0.000547045951859956	0	6
+HUBMet002507	metabolite	Testosterone		Lipid	1	0.000547045951859956	0	6
+HUBMet000963	metabolite	Testosterone sulfate		Lipid	1	0.000547045951859956	0	6
+HUBMet002615	metabolite	14,15-EpETrE		Lipid	1	0.000547045951859956	0	6
+HUBMet002613	metabolite	11,12-Epoxyeicosatrienoic acid		Lipid	1	0.000547045951859956	0	6
+HUBMet001603	metabolite	Fluconazole		Xenobiotics	1	0.000547045951859956	0	6
+HUBMet001780	metabolite	Midazolam		Xenobiotics	1	0.000547045951859956	0	6
+HUBMet003772	metabolite	formate		Xenobiotics	1	0.000547045951859956	0	6
+HUBMet003355	metabolite	9,10-EpOME		Lipid	1	0.000547045951859956	0	6
+HUBMet003438	metabolite	12,13-EpOME		Lipid	1	0.000547045951859956	0	6
+HUBMet001099	metabolite	Leukotriene B4		Lipid	1	0.000535331905781585	0	6
+HUBMet001848	metabolite	oxaloacetic acid		Energy	1	0.000533049040511727	0	2
+HUBMet002604	metabolite	glucose 1,6-diphosphate		Carbohydrate	1	0.000505050505050505	0	1
+MP001122	protein	NDUFAB1	O14561	Electron transport;Fatty acid biosynthesis;Fatty acid metabolism;Lipid biosynthesis;Lipid metabolism;Respiratory chain;Transport	1	0.000485201358563804	0	2
+HUBMet001701	metabolite	L-Methionine		Amino Acid	1	0.000476644423260248	0	5
+HUBMet003506	metabolite	5'-deoxyadenosine		Nucleotide	1	0.000476644423260248	0	5
+HUBMet001165	metabolite	Retinal		Xenobiotics	1	0.000446428571428571	0	6
+HUBMet000608	metabolite	Naproxen		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet000514	metabolite	Ibuprofen		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet001049	metabolite	Celecoxib		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet000427	metabolite	4-acetamidophenol		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet001548	metabolite	Eicosapentaenoic acid		Lipid	1	0.000433275563258232	0	9
+HUBMet001772	metabolite	Meloxicam		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet003585	metabolite	valdecoxib		Xenobiotics	1	0.000433275563258232	0	9
+HUBMet003436	metabolite	13-Hpode		Lipid	1	0.000431778929188256	0	6
+HUBMet001787	metabolite	Myristic acid		Lipid	1	0.000431034482758621	0	6
