@@ -1,7 +1,7 @@
 # HUBMet
 Datasets and scripts of **HUBMet (Human Blood Metabolite Database and Analytical Platform)**: https://hubmet.app.bio-it.tech/home
 
-# Folder Structure
+## Folder Structure
 
 - `Script/`: Code of functional modules in HUBMet
   - `Classifier.R`: Human Blood Metabolites Annotation
