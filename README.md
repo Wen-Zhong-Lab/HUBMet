@@ -27,6 +27,6 @@ This repository uses a multi-license scheme:
 ## Data and Scripts on Zenodo
 
 The complete set of data and scripts from this repository has been archived in Zenodo for long-term preservation and citation.  
-You can access the archived version here:  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://zenodo.org/records/17014155)
+You can access the archived version here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)](https://zenodo.org/records/17014155)
+
 Please always provide proper attribution when using any part of this repository.
