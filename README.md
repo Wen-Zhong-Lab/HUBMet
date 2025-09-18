@@ -27,6 +27,17 @@ This repository uses a multi-license scheme:
 ## Data and Scripts on Zenodo
 
 The complete set of data and scripts from this repository has been archived in Zenodo for long-term preservation and citation.  
-You can access the archived version here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17014155.svg)](https://doi.org/10.5281/zenodo.17014155)
+You can access the archived version here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17014155.svg
+        
+        
+        
+        )](https://doi.org/10.5281/zenodo.17014155
+        
+        
+        
+        )
+
+## How to cite
+Wang X, Qiao X, Zenere A, Barde S, Wang J, Zhong W. (2025) HUBMet: An integrative database and analytical platform for human blood metabolites and metabolite-protein associations. Preprint at bioRxiv (DOI: [10.1101/2025.09.16.676477](https://www.biorxiv.org/content/10.1101/2025.09.16.676477v1))
 
 Please always provide proper attribution when using any part of this repository.
