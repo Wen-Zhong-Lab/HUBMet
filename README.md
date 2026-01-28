@@ -31,6 +31,6 @@ You can access the archived version here: [![DOI](https://zenodo.org/badge/DOI/1
         
  
 ## How to cite
-Wang, X., Qiao, X., Zenere, A. et al. HUBMet: an integrative database and analytical platform for human blood metabolites and metabolite-protein associations. Genome Biol 27, 7 (2026). [https://doi.org/10.1186/s13059-025-03922-x](https://doi.org/10.1186/s13059-025-03922-x)
+Wang X, Qiao X, Zenere A, Barde S, Wang J, Zhong W. HUBMet: an integrative database and analytical platform for human blood metabolites and metabolite-protein associations. Genome Biol. 2025 Dec 27;27(1):7. doi: [10.1186/s13059-025-03922-x](https://doi.org/10.1186/s13059-025-03922-x)
 
 Please always provide proper attribution when using any part of this repository.
